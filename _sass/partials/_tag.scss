@@ -1,0 +1,32 @@
+.tag,
+.tag:active,
+.tag:visited {
+  display: inline-block;
+  padding: 5px 7px 5px 10px;
+  
+  font-size: em(14);
+  color: limegreen;
+
+  border: 1px solid limegreen;
+  border-radius: 25px;
+  transition: all 150ms ease-in-out;
+
+  > span {
+    padding: 2px 8px;
+    font-size: em(14);
+    color: white;
+    background-color: limegreen;
+    border-radius: 25px;
+    transition: all 150ms ease-in-out;
+  }
+}
+
+.tag:hover,
+.tag:focus {
+  color: lightgreen;
+  border-color: lightgreen;
+
+  > span {
+    background-color: lightgreen;
+  }
+}

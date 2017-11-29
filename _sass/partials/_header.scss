@@ -1,0 +1,89 @@
+.site-header {
+  position: relative;
+  width: 100vw;
+
+  display: flex;
+  flex-flow: column nowrap;
+
+  background-color: $brand-color;
+  box-shadow: 0 2px 8px rgba(black, .1);
+
+  @include breakpoint($lg) {
+    flex-flow: row nowrap;
+  }
+}
+
+.site-title {
+  float: left;
+  margin-bottom: 0;
+  padding: $spacing-unit / 2;
+
+  a, a:active, a:visited, a:hover, a:focus {
+    color: white;
+  }
+
+  .logo {
+    float: left;
+
+    > img {
+      width: auto;
+      height: $spacing-unit * 2;
+    }
+  }
+
+  .title {
+    margin-left: $spacing-unit / 2;
+    font-weight: 300;
+    line-height: $spacing-unit * 2;
+  }
+}
+
+.nav-trigger {
+  display: none;
+  
+  + label {
+    position: absolute;
+    top: 35px;
+    right: 15px;
+
+    @include breakpoint($lg) {
+      display: none;
+    }
+  }
+
+  &:checked ~ .site-nav {
+    display: flex;
+  }
+}
+
+.site-nav {
+  display: none;
+  flex-flow: column nowrap;
+  width: 100%;
+  background-color: white;
+
+  @include breakpoint($lg) {
+    display: flex;
+    flex-flow: row nowrap;
+    width: auto;
+    margin-left: auto;
+    margin-right: $spacing-unit / 2;
+    background-color: transparent;
+  }
+
+
+  a {
+    padding: $spacing-unit / 2;
+    text-align: center;
+    border-bottom: 1px solid rgba($brand-color, .05);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    @include breakpoint($lg) {
+      line-height: $spacing-unit * 2;
+      border-bottom: none;
+    }
+  }
+}

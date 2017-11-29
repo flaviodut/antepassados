@@ -1,0 +1,49 @@
+.post-list {
+  display: flex;
+  flex-flow: row wrap;
+
+  margin: 0;
+  padding: 0;
+
+  > li:first-child {
+    width: 100%;
+  }
+  
+  > li {
+    width: 50%;
+    list-style: none;
+  }
+}
+
+.post-item {
+  margin: $spacing-unit / 2;
+  padding: $spacing-unit / 2;
+
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(black, .1);
+}
+
+.post-item,
+.post {
+  ul {
+    margin: 0;
+    padding: 0;
+    
+    li {
+      display: inline-block;
+    }
+
+    a {
+      padding-right: 10px;
+      font-size: em(12);
+    }
+  }
+}
+
+.post-meta {
+  color: lighten($brand-color, 20%);
+}
+
+h2 {
+  color: $brand-color;
+}

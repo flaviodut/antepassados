@@ -1,0 +1,34 @@
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// FUNCTION PX TO EM
+// usage: .class { font-size: em(16); } // 1em
+@function em($pixels, $context: $base-font-size-number) {
+  @return #{$pixels/$context}em;
+}
+
+// BOOTSTRAP BREAKPOINTS
+// A simple responsive breakpoint mixin that takes both attribute names and custom widths.
+// URL: https://gist.github.com/timknight/b8adb5df5600c37fd567
+// How to use:
+// p {
+//     @include breakpoint($sm) {
+//         color: white;
+//     }
+//     @include breakpoint($sm-only) {
+//         color: black;
+//     }
+// }
+$xs: (max: $screen-xs);
+$md: (min: $screen-md);
+$lg: (min: $screen-lg);
+$md-only: (min: map-get($md, min), max: map-get($lg, min) - 1);
+
+@mixin breakpoint($map) {
+  $query: "";
+  @if map-has-key($map, min) { $query: append($query, "(min-width: #{map-get($map, min)})") }
+  @if map-has-key($map, min) and map-has-key($map, max) { $query: append($query, "and") }
+  @if map-has-key($map, max) { $query: append($query, "(max-width: #{map-get($map, max)})") }
+  @media screen and #{$query} { @content; }
+}

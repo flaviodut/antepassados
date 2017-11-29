@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  width: 100vw;
+
+  @include breakpoint($lg) {
+    flex-flow: initial;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $brand-color;
+  }
+}
+
+.page-sidebar {
+  width: 100vw;
+  padding: $spacing-unit ($spacing-unit / 2);
+  text-align: center;
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 5px;
+    list-style: none;
+  }
+
+  @include breakpoint($lg) {
+    position: fixed;
+    top: auto;
+    right: 0;
+    width: 200px;
+    height: auto;
+    text-align: right;
+
+    ul {
+      flex-flow: column nowrap;
+    }
+
+    li {
+      margin: 0 0 10px;
+    }
+  }
+}
+
+.wrapper {
+  width: 100vw;
+  padding: $spacing-unit ($spacing-unit / 2);
+
+  @include breakpoint($lg) {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+.home {
+  @include breakpoint($lg) {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.post {
+  @include breakpoint($lg) {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+.site-footer {
+  width: 100vw;
+  padding: ($spacing-unit / 2) $spacing-unit ($spacing-unit / 2);
+  text-align: center;
+  
+  > span {
+    font-size: 13px;
+  }
+
+  @include breakpoint($md) {
+    text-align: right;
+    background: linear-gradient(to bottom, rgba($background-color, 0), $background-color 50%);
+
+  }
+}
