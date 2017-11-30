@@ -4,6 +4,7 @@
 
 // FUNCTION PX TO EM
 // usage: .class { font-size: em(16); } // 1em
+$base-font-size-number: 16 !default;
 @function em($pixels, $context: $base-font-size-number) {
   @return #{$pixels/$context}em;
 }

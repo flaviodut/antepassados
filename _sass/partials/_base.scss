@@ -1,9 +1,18 @@
-html {
-  box-sizing: border-box;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@-ms-viewport {
+  width: device-width;
 }
 
 /**
@@ -22,7 +31,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
