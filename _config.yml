@@ -55,4 +55,4 @@ defaults:
       path: ""
       type: categoria
     values:
-      layout: "categoria"
+      layout: "category"
