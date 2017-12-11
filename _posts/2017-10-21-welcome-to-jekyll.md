@@ -5,7 +5,10 @@ date:   2017-10-21 12:21:14 -0200
 last-update: 2017-12-07 21:48:00 -0200
 author: Fábio Umberto van Hurtere
 author-email: fabio.hurtere@gmail.com
-categories: jekyll update
+categories:
+  - jekyll
+  - update
+  - Família Dutra
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
