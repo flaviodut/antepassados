@@ -1,20 +1,44 @@
 ---
 layout: default
 ---
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    {% if page.categories %}
     <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      <span class="post-date-published">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {% assign m = page.date | date: "%-m" %}
+          {{ page.date | date: "%-d" }} de
+          {% case m %}
+          {% when '1' %}janeiro
+          {% when '2' %}fevereiro
+          {% when '3' %}março
+          {% when '4' %}abril
+          {% when '5' %}maio
+          {% when '6' %}junho
+          {% when '7' %}julho
+          {% when '8' %}agosto
+          {% when '9' %}setembro
+          {% when '10' %}outubro
+          {% when '11' %}novembro
+          {% when '12' %}dezembro
+          {% endcase %} de
+          {{ page.date | date: "%Y" }}
+        </time>
+      </span>
+      {% if page.last-update %}
+        <span class="post-date-update">
+          Última atualização:
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {% assign date-format = "%-d/%-m/%Y" %}
+            {{ page.last-update | date: date-format }}
+          </time>
+        </span>
       {% endif %}
     </p>
-    {% if page.categories %}
     <ul>
       {% assign categories_list = page.categories | sort %}
       {% for category in categories_list %}
@@ -26,9 +50,34 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+
+    {% if page.author %}
+    <p class="post-meta">
+      por
+      <span class="post-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">{{ page.author }}</span>
+        {% if page.author-email %}
+        <span itemprop="email">&#60;{{page.author-email}}&#62;</span>
+        {% endif %}
+      </span>
+    </p>
+    {% endif %}
+
+    <p class="fim">&#8212; <i id="fim">fim</i></p>
   </div>
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
 </article>
+
+<script>
+  (function(){
+    const fimArr = ['fim', 'fine', 'finir', 'einde'];
+    const fimEl = document.querySelector('#fim');
+    
+    if (fimEl) {
+      fimEl.innerHTML = fimArr[Math.floor(Math.random()*fimArr.length)];
+    }
+  })();
+</script>

@@ -1,4 +1,8 @@
-*, *::before, *::after {
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
   box-sizing: inherit;
 }
 
@@ -116,7 +120,7 @@ a {
 
   &:visited,
   &:active {
-    color: darken($brand-color, 15%);
+    color: $brand-color;
   }
 
   &:hover,
@@ -136,24 +140,9 @@ a {
     
       &:hover,
       &:focus {
-        color: darken($brand-color, 15%);
+        color: darken(white, 15%);
       }
     }
-  }
-}
-
-a.link-white {
-  color: white;
-  text-decoration: none;
-
-  &:visited,
-  &:active {
-    color: white;
-  }
-
-  &:hover,
-  &:focus {
-    color: darken($brand-color, 15%);
   }
 }
 

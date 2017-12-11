@@ -1,25 +1,3 @@
-/*
-  Slabo 27px
-  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-  @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
-
-  Lora
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
-  @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
-
-  Libre Baskerville
-  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
-  @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
-
-  Vollkorn
-  <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-  @import url('https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,600i,700,700i,900,900i');
-
-  Ovo
-  <link href="https://fonts.googleapis.com/css?family=Ovo" rel="stylesheet">
-  @import url('https://fonts.googleapis.com/css?family=Ovo');
-*/
-
 .post-list {
   display: flex;
   flex-flow: row wrap;
@@ -39,7 +17,7 @@
 
 .post-item {
   margin: $spacing-unit / 2;
-  padding: $spacing-unit / 2;
+  padding: ($spacing-unit / 2) ($spacing-unit / 2) ($spacing-unit / 2 - .313rem);
 
   background-color: white;
   box-shadow: 0 4px 8px rgba(black, .1);
@@ -53,6 +31,7 @@
     
     li {
       display: inline-block;
+      margin-bottom: .313rem;
     }
 
     a {
@@ -62,10 +41,140 @@
   }
 }
 
-.post-meta {
-  color: lighten($brand-color, 20%);
+.post-link {
+  &,
+  &:visited,
+  &:active,
+  &:hover,
+  &:focus {
+    color: $text-color;
+  }
+
+  .post-meta {
+    font-size: .75rem;
+    color: #bbb;
+  }
+
+  p {
+    height: #{$base-line-height * 3}rem;
+    overflow: hidden;
+  }
 }
 
-h2 {
-  color: $brand-color;
+.post-header {
+  margin-top: $spacing-unit * 2;
+  margin-bottom: $spacing-unit * 2;
+  text-align: center;
+
+  .post-title {
+    margin-bottom: 0;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  .post-date-published {
+    display: block;
+    font-size: 1.25rem;
+    color: $brand-color;
+    text-transform: uppercase;
+  }
+
+  .post-date-update {
+    font-size: .75rem;
+    color: #bbb;
+  } 
+}
+
+.post-content {
+  font-family: $base-font-family-post;
+  font-size: 1.313rem;
+  line-height: 1.5;
+
+  a {
+    padding-bottom: 1px;
+    color: $second-color;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    transition: all 200ms ease-in-out;
+  
+    &:visited,
+    &:active {
+      color: $second-color;
+    }
+  
+    &:hover,
+    &:focus {
+      color: lighten($second-color, 15%);
+    }
+  }
+
+  p {
+    margin-bottom: $spacing-unit;
+  }
+
+  p:not(.post-meta)::first-letter {
+    font-size: 125%;
+  }
+
+  figure {
+    margin-bottom: $spacing-unit;
+
+    > img {
+      margin-bottom: .5rem;
+    }
+
+    @include breakpoint($lg) {
+      img {
+        max-width: 150%;
+        margin-left: -25%;
+      }
+    }
+  }
+
+  figcaption {
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+  }
+
+  iframe, .aspect-ratio {
+    margin-bottom: $spacing-unit;
+  }
+
+  // IFRAME ASPECT RATIO
+  .aspect-ratio {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56%; // 56.25?
+
+    > iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+  }
+
+  @include breakpoint($lg) {
+    .aspect-ratio {
+      width: 150%;
+      margin-left: -25%;
+      padding-bottom: 84.25%;
+    }
+  }
+}
+
+.post-meta {
+  font-size: 1.125rem;
+
+  [itemprop="email"] {
+    font-size: .875rem;
+  }
+}
+
+.fim {
+  color: #ddd;
 }

@@ -2,10 +2,27 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-10-21 12:21:14 -0200
-author: Flávio Alberto Dutra
+last-update: 2017-12-07 21:48:00 -0200
+author: Fábio Umberto van Hurtere
+author-email: fabio.hurtere@gmail.com
 categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+<a data-flickr-embed="true" data-header="true" data-footer="true" data-context="true"  href="https://www.flickr.com/photos/d2d/201549575/in/album-72157623221063940/" title="fig1"><img src="https://farm1.staticflickr.com/67/201549575_48e1c2965e_o.jpg" width="640" height="480" alt="fig1"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+<div class="aspect-ratio">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/u-j4oSfph-8?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+<figure>
+  <img src="/assets/images/welcome.jpg" alt="The Pulpit Rock">
+  <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+</figure>
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 

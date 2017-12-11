@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Minhas raízes
+title: Antepassados
 author: Flávio Alberto Dutra
 email: flavio.adore@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Descrição do sítio.
 lang: pt-br
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/antepassados" # the subpath of your site, e.g. /blog
+url: "http://flaviodutra.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 
 facebook_username: flaviodutra
 twitter_username: flaviodut
@@ -35,6 +35,13 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Configuration for Disqus
+disqus:
+  shortname: antepassados
+
+# GA
+# google_analytics: UA-NNNNNNNN-N
 
 
 # https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins

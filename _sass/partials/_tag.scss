@@ -2,31 +2,32 @@
 .tag:active,
 .tag:visited {
   display: inline-block;
-  padding: 5px 7px 5px 10px;
+  padding: 2px 3px 2px 10px;
   
   font-size: .875rem;
-  color: limegreen;
+  color: $second-color;
 
-  border: 1px solid limegreen;
+  background-color: white;
+  border: 1px solid $second-color;
   border-radius: 1.5rem;
-  transition: all 150ms ease-in-out;
+  transition: all 200ms ease-in-out;
 
   > span {
-    padding: 2px 8px;
+    padding: 1px 8px;
     font-size: .875rem;
     color: white;
-    background-color: limegreen;
+    background-color: $second-color;
     border-radius: 1.5rem;
-    transition: all 150ms ease-in-out;
+    transition: all 200ms ease-in-out;
   }
 }
 
 .tag:hover,
 .tag:focus {
-  color: lightgreen;
-  border-color: lightgreen;
+  color: lighten($second-color, 15%);
+  border-color: lighten($second-color, 15%);
 
   > span {
-    background-color: lightgreen;
+    background-color: lighten($second-color, 15%);
   }
 }

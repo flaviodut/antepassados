@@ -1,6 +1,6 @@
 .site-header {
   position: relative;
-  width: 100vw;
+  width: 100%;
 
   display: flex;
   flex-flow: column nowrap;
@@ -28,12 +28,13 @@
     > img {
       width: auto;
       height: $spacing-unit * 2;
+      fill: white;
     }
   }
 
   .title {
     margin-left: $spacing-unit / 2;
-    font-weight: 300;
+    font-family: $base-font-family-post;
     line-height: $spacing-unit * 2;
   }
 }
