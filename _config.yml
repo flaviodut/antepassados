@@ -52,7 +52,7 @@ collections:
 defaults:
   -
     scope:
-      path: ""
-      type: category
+      path: "/antepassados"
+      type: categoria
     values:
-      layout: "category"
+      layout: "categoria"
