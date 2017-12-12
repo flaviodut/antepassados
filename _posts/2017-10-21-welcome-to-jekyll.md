@@ -22,10 +22,11 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-<figure>
-  <img src="{{site.url}}{{site.baseurl}}/assets/images/welcome.jpg" alt="The Pulpit Rock">
+<!-- <figure>
+  <img src="{{site.baseurl}}/assets/images/welcome.jpg" alt="The Pulpit Rock">
   <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
-</figure>
+</figure> -->
+{% include images.html name="welcome.jpg" alt="The Pulpit Rock" caption="Fig1. - A view of the pulpit rock in Norway." %}
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
