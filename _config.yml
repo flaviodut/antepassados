@@ -53,6 +53,6 @@ defaults:
   -
     scope:
       path: ""
-      type: category
+      type: categoria
     values:
       layout: "category"
