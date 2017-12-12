@@ -33,3 +33,7 @@ $md-only: (min: map-get($md, min), max: map-get($lg, min) - 1);
   @if map-has-key($map, max) { $query: append($query, "(max-width: #{map-get($map, max)})") }
   @media screen and #{$query} { @content; }
 }
+
+// Class helpers
+.align-left { text-align: left; }
+.align-right { text-align: right; }

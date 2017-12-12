@@ -5,13 +5,19 @@
   margin: 0;
   padding: 0;
 
-  > li:first-child {
-    width: 100%;
-  }
-  
   > li {
-    width: 50%;
+    width: 100%;
     list-style: none;
+  }
+
+  @include breakpoint($lg) {
+    > li:first-child {
+      width: 100%;
+    }
+    
+    > li {
+      width: 50%;
+    }
   }
 }
 
@@ -34,7 +40,9 @@
       margin-bottom: .313rem;
     }
 
-    a {
+    a,
+    a:active,
+    a:visited {
       padding-right: .625rem;
       font-size: .75rem;
     }
@@ -62,9 +70,13 @@
 }
 
 .post-header {
-  margin-top: $spacing-unit * 2;
+  margin-top: $spacing-unit;
   margin-bottom: $spacing-unit * 2;
   text-align: center;
+
+  @include breakpoint($lg) {
+    margin-top: $spacing-unit * 2;
+  }
 
   .post-title {
     margin-bottom: 0;
@@ -76,6 +88,7 @@
   .post-date-published {
     display: block;
     font-size: 1.25rem;
+    font-weight: 300;
     color: $brand-color;
     text-transform: uppercase;
   }

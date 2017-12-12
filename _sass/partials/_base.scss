@@ -206,23 +206,25 @@ pre {
 
 
 /**
- * Icons
+ * Tables
  */
-// .icon > svg {
-//   display: inline-block;
-//   vertical-align: middle;
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
-//   path {
-//     fill: $grey-color;
-//   }
-// }
+thead tr {
+  border-bottom: 2px solid $third-color;
+}
 
-// .social-media-list {
-//   .icon {
-//     padding-right: 5px;
-//   }
+thead th {
+  color: $third-color;
+}
 
-//   li + li {
-//     padding-top: 5px;
-//   }
-// }
+tbody tr:not(:last-child) {
+  border-bottom: 1px solid $third-color;
+}
+
+th, td {
+  padding: 20px 10px;
+}

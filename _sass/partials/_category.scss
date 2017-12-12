@@ -1,0 +1,21 @@
+.category {
+  @include breakpoint($lg) {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+.category-header {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit * 2;
+
+  @include breakpoint($lg) {
+    margin-top: $spacing-unit * 2;
+  }
+}
+
+.category-content {
+  h2 {
+    margin: 0;
+  }
+}

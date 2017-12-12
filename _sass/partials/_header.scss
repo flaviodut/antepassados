@@ -35,7 +35,12 @@
   .title {
     margin-left: $spacing-unit / 2;
     font-family: $base-font-family-post;
+    font-size: 1.75rem;
     line-height: $spacing-unit * 2;
+
+    @include breakpoint($lg) {
+      font-size: 2rem;
+    }
   }
 }
 

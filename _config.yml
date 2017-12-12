@@ -41,7 +41,7 @@ disqus:
   shortname: antepassados
 
 # GA
-# google_analytics: UA-NNNNNNNN-N
+google_analytics: UA-35055763-2
 
 
 # https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins
