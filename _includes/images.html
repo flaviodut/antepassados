@@ -1,11 +1,3 @@
-<!--
-  FROM:
-  https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html
-  
-  USAGE:
-  {% include image name="linkedin-before.png" alt="Alt text" caption="Sharing my blog on LinkedIn" %}
--->
-
 {% capture imagePath %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
 {% if include.caption %}
   <figure>

@@ -31,19 +31,23 @@ layout: default
               {{ post.date | date: "%Y" }}
             </span>
             <h2>{{ post.title | escape }}</h2>
-            {{ post.excerpt }}
+            <p>
+            {% if forloop.first == true %}
+              {{ post.excerpt | remove: '<p>' | remove: '</p>' | truncate: 370 }}
+            {% else %}
+              {{ post.excerpt | remove: '<p>' | remove: '</p>' | truncate: 165 }}
+            {% endif %}
+            </p>
           </a>
           <ul>
           {% assign categories_list = post.categories | sort %}
             {% if categories_list.first[0] == null %}
               {% for category in categories_list %}
                 <li><a class="tag" href="{{ site.url }}{{ site.baseurl }}/categoria/{{ category | downcase | replace: ' ', '-'| replace: 'ã', 'a' | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'õ', 'o' | replace: 'ô', 'o' | replace: 'ú', 'u' | replace: 'ç', 'c' }}">{{ category }}</a></li>
-                <li>{{category | slugify}}</li>
               {% endfor %}
             {% else %}
               {% for category in categories_list %}
                 <li><a class="tag" href="{{ site.url }}{{ site.baseurl }}/categoria/{{ category[0] | downcase | replace: ' ', '-'| replace: 'ã', 'a' | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'õ', 'o' | replace: 'ô', 'o' | replace: 'ú', 'u' | replace: 'ç', 'c' }}">{{ category[0] }}</a></li>
-                <li>{{category[0] | slugify}}</li>
               {% endfor %}
             {% endif %}
           {% assign categories_list = nil %}

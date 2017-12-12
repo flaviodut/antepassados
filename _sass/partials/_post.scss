@@ -117,7 +117,7 @@
     font-size: 125%;
   }
 
-  figure {
+  figure, p {
     margin-bottom: $spacing-unit;
 
     > img {
@@ -125,7 +125,7 @@
     }
 
     @include breakpoint($lg) {
-      img {
+      > img {
         max-width: 150%;
         margin-left: -25%;
       }

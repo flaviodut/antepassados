@@ -10,7 +10,7 @@ categories:
   - update
   - Família Dutra
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+You’ll find this post in your directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run, which launches a web server and auto-regenerates your site when a file is updated. You’ll find this post in your directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run, which launches a web server and auto-regenerates your site when a file is updated.
 
 <a data-flickr-embed="true" data-header="true" data-footer="true" data-context="true"  href="https://www.flickr.com/photos/d2d/201549575/in/album-72157623221063940/" title="fig1"><img src="https://farm1.staticflickr.com/67/201549575_48e1c2965e_o.jpg" width="640" height="480" alt="fig1"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
@@ -22,11 +22,12 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-<!-- <figure>
-  <img src="{{site.baseurl}}/assets/images/welcome.jpg" alt="The Pulpit Rock">
+<figure>
+  <img src="{{site.baseurl}}/assets/posts/2017-10-21-welcome-to-jekyll/welcome.jpg" alt="The Pulpit Rock">
   <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
-</figure> -->
-{% include images.html name="welcome.jpg" alt="The Pulpit Rock" caption="Fig1. - A view of the pulpit rock in Norway." %}
+</figure>
+
+{% include images.html name="welcome.jpg" alt="The Pulpit" %}
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
