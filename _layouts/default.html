@@ -14,11 +14,11 @@
         {% assign categories_list = site.categories | sort %}
           {% if categories_list.first[0] == null %}
             {% for category in categories_list %}
-              <li><a class="tag" href="{{ site.url }}{{ site.baseurl }}/category/{{ category | downcase | replace: ' ', '-'| replace: 'ã', 'a' | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'õ', 'o' | replace: 'ô', 'o' | replace: 'ú', 'u' | replace: 'ç', 'c' }}">{{ category }} <span>{{ site.tags[category].size }}</span></a></li>
+              <li><a class="tag" href="{{ site.url }}{{ site.baseurl }}/categoria/{{ category | downcase | replace: ' ', '-'| replace: 'ã', 'a' | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'õ', 'o' | replace: 'ô', 'o' | replace: 'ú', 'u' | replace: 'ç', 'c' }}">{{ category }} <span>{{ site.tags[category].size }}</span></a></li>
             {% endfor %}
           {% else %}
             {% for category in categories_list %}
-              <li><a class="tag" href="{{ site.url }}{{ site.baseurl }}/category/{{ category[0] | downcase | replace: ' ', '-'| replace: 'ã', 'a' | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'õ', 'o' | replace: 'ô', 'o' | replace: 'ú', 'u' | replace: 'ç', 'c' }}">{{ category[0] }} <span>{{ category[1].size }}</span></a></li>
+              <li><a class="tag" href="{{ site.url }}{{ site.baseurl }}/categoria/{{ category[0] | downcase | replace: ' ', '-'| replace: 'ã', 'a' | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'õ', 'o' | replace: 'ô', 'o' | replace: 'ú', 'u' | replace: 'ç', 'c' }}">{{ category[0] }} <span>{{ category[1].size }}</span></a></li>
             {% endfor %}
           {% endif %}
         {% assign categories_list = nil %}
@@ -29,22 +29,6 @@
         {{ content }}
       </div>
     </main>
-
-    <!--{% for tag in site.categories %}
-      <h3 id="{{ tag[0] }}">{{ tag[0] | camelcase }}</h3>
-      <ul>
-        {% assign pages_list = tag[1] %}
-        {% for post in pages_list %}
-          {% if post.title != null %}
-          {% if group == null or group == post.group %}
-          <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></li>
-          {% endif %}
-          {% endif %}
-        {% endfor %}
-        {% assign pages_list = nil %}
-        {% assign group = nil %}
-      </ul>
-    {% endfor %}-->
 
     {% include footer.html %}
 
