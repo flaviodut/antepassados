@@ -43,6 +43,13 @@ disqus:
 # GA
 google_analytics: UA-35055763-2
 
+# Compress HTML - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  startings: []
+  profile: false
 
 # https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins
 collections:
