@@ -29,6 +29,26 @@
   box-shadow: 0 4px 8px rgba(black, .1);
 }
 
+.post-item,
+.post {
+  ul {
+    margin: 0;
+    padding: 0;
+    
+    li {
+      display: inline-block;
+      margin-bottom: .313rem;
+    }
+
+    a,
+    a:active,
+    a:visited {
+      padding-right: .625rem;
+      font-size: .75rem;
+    }
+  }
+}
+
 .post-link {
   &,
   &:visited,
@@ -77,22 +97,9 @@
     font-size: .75rem;
     color: #bbb;
   }
-
-  ul {
-    margin: 0;
-    padding: 0;
-  }  
   
   li {
-    display: inline-block;
-    margin-bottom: .313rem;
-  }
-
-  a,
-  a:active,
-  a:visited {
-    padding-right: .625rem;
-    font-size: .75rem;
+    margin: .313rem;
   }
 }
 
