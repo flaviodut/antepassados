@@ -17,7 +17,7 @@ title: Antepassados
 author: Flávio Alberto Dutra
 email: flavio.adore@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Descrição do sítio.
+  Sítio dedicado as minhas descobertas genealógicas e histórias familiares.
 lang: pt-br
 baseurl: "/antepassados" # the subpath of your site, e.g. /blog
 url: "http://flaviodutra.com.br" # the base hostname & protocol for your site, e.g. http://example.com

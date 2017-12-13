@@ -10,7 +10,7 @@
     list-style: none;
   }
 
-  @include breakpoint($lg) {
+  @include breakpoint($md) {
     > li:first-child {
       width: 100%;
     }

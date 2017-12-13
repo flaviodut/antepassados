@@ -32,17 +32,17 @@ layout: default
       {% if page.last-update %}
         <span class="post-date-update">
           Última atualização:
-          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateModified">
             {% assign date-format = "%-d/%-m/%Y" %}
             {{ page.last-update | date: date-format }}
           </time>
         </span>
       {% endif %}
     </p>
-    <ul>
+    <ul itemprop="keywords">
       {% assign categories_list = page.categories | sort %}
       {% for category in categories_list %}
-      <li><a class="tag" href="{{ site.url }}/categoria/{{ category | downcase | replace: ' ', '-'| replace: 'ã', 'a' | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'õ', 'o' | replace: 'ô', 'o' | replace: 'ú', 'u' | replace: 'ç', 'c' }}">{{category}}</a></li>
+      <li><a class="tag" href="{{ site.url }}/categoria/{{ category | downcase | replace: ' ', '-'| replace: 'ã', 'a' | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'õ', 'o' | replace: 'ô', 'o' | replace: 'ú', 'u' | replace: 'ç', 'c' }}" rel="tag">{{category}}</a></li>
       {% endfor %}
     </ul>
     {% endif %}
