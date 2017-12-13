@@ -1,0 +1,36 @@
+/* TEAM */
+Your title: Flávio Alberto Dutra
+Site: http://flaviodutra.com.br
+Twitter: @flaviodut
+Location: São Caetano do Sul, São Paulo, Brasil
+
+/* THANKS */
+Name: Meus antepassados
+Why: Obrigado por me instigar à conhecer suas histórias e, de certa forma, conhecê-los. Suas histórias de superação e coragem me comove e alimenta minha vontade de preservar a memória e informações documentais, além de fomentar minha vontade de ajudar à quem possa se interessar também pela pesquisa genealógica.
+
+Name: Magda Antonietta Maia Gemente
+Site: https://www.facebook.com/magdaantonieta.maiagemente
+Why: Obrigado por todas as histórias de família contadas com riqueza de detalhes e pela injeção de ânimo e entusiasmo com que recebe cada descoberta ou novidade.
+
+Name: ASBRAP - Associação Brasileira de Pesquisadores de História e Genealogia
+Site: http://www.asbrap.org.br
+Why: Obrigado pela organização e realização do seminário em novembro de 2017. Ter encontrado pessoas que, assim como eu, descobriram a paixão pela genealogia foi animador e revelador.
+
+Name: João Ventura
+Site: http://tombo.pt
+Twitter: @tombo_pt
+Why: O espírito altruísta do sítio tombo.pt em dispor milhares de documentos e conteúdo relevante à pesquisa genealogica é inspirator.
+
+Name: Willian Justen
+Site: https://willianjusten.com.br
+Twitter: @willian_justen
+Why: Obrigado pelo curso de Jekyll na Udemy, caso contrário, eu teria usado o Wordpress safado mesmo.
+
+/* SITE */
+Standards: HTML5, CSS3, SVG, Javascript, Liquid
+Components: Jekyll, Markdown, SASS
+Software: VS Code, Sublime, Git, Photoshop, Illustrator
+
+/* LOGO */
+Author: Daniel Campos
+Site: https://pt.vecteezy.com/arte-vetorial/114629-rvore-celta-livre-pacote-vetorial-vol-4
