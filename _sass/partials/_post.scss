@@ -106,8 +106,8 @@
 
 .post-content {
   font-family: $base-font-family-post;
-  font-size: 1.313rem;
-  line-height: 1.5;
+  font-size: 1.125rem;
+  line-height: 1.75;
 
   a {
     padding-bottom: 1px;
@@ -125,6 +125,11 @@
     &:focus {
       color: lighten($second-color, 15%);
     }
+  }
+
+  a:not([href*='flaviodutra.com.br']):not([href^='#']):not([href^='/'])::after {
+    content: url("data:image/svg+xml;charset=UTF-8,%3csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 40 40'%3e%3cpath fill='#{$second-color}' d='M30 30h-26v-18h5.19c0 0 1.378-1.792 4.34-4h-11.53c-1.106 0-2 0.898-2 2v22c0 1.106 0.894 2 2 2h30c1.106 0 2-0.894 2-2v-7.492l-4 3.29v2.202zM26.722 16.1v7.102l13.278-10.402-13.278-9.998v6.262c-16.122 0-16.122 15.936-16.122 15.936 4.564-7.496 7.372-8.9 16.122-8.9z'%3e%3c/path%3e%3c/svg%3e");
+    margin-left: .5rem;
   }
 
   p {
@@ -182,6 +187,19 @@
       margin-left: -25%;
       padding-bottom: 84.25%;
     }
+  }
+
+  .thumb-left {
+    float: left;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .thumb-right {
+    float: right;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: -25%;
   }
 }
 
