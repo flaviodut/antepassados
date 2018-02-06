@@ -63,7 +63,7 @@ layout: default
     </p>
     {% endif %}
 
-    <p class="fim">&#8212; <i id="fim">fim</i></p>
+    <p id="fim" class="fim"></p>
   </div>
 
   {% if site.disqus.shortname %}
@@ -73,11 +73,13 @@ layout: default
 
 <script>
   (function(){
-    const fimArr = ['fim', 'fine', 'finir', 'einde'];
     const fimEl = document.querySelector('#fim');
-    
+
     if (fimEl) {
-      fimEl.innerHTML = fimArr[Math.floor(Math.random()*fimArr.length)];
+      const fimArr = [['fim', 'pt-br'], ['fine', 'it'], ['finir', 'fr'], ['einde', 'nl']];
+      const fimRand = Math.floor(Math.random()*fimArr.length);
+      
+      fimEl.innerHTML = `&#8212; <i lang="${fimArr[fimRand][1]}">${fimArr[fimRand][0]}</i>`;
     }
   })();
 </script>
