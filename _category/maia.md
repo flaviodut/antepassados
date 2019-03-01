@@ -1,4 +1,4 @@
 ---
-tag: "Maia"
+tag: "MAIA"
 permalink: "/categoria/maia"
 ---

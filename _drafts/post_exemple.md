@@ -6,7 +6,7 @@ last-update: 2017-12-07 21:48:00 -0200
 author: Fábio Umberto van Hurtere
 author-email: fabio.hurtere@gmail.com
 categories:
-  - Dutra
+  - DUTRA
 ---
 You’ll find this post in your directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run, which launches a web server and auto-regenerates your site when a file is updated. You’ll find this post in your directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run, which launches a web server and auto-regenerates your site when a file is updated.
 

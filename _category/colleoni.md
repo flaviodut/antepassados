@@ -1,4 +1,4 @@
 ---
-tag: "Colleoni"
+tag: "COLLEONI"
 permalink: "/categoria/colleoni"
 ---

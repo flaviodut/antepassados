@@ -1,4 +1,4 @@
 ---
-tag: "Dutra"
+tag: "DUTRA"
 permalink: "/categoria/dutra"
 ---

@@ -1,4 +1,4 @@
 ---
-tag: "Branco"
+tag: "BRANCO"
 permalink: "/categoria/branco"
 ---

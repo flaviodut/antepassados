@@ -1,4 +1,4 @@
 ---
-tag: "Magrini"
+tag: "MAGRINI"
 permalink: "/categoria/magrini"
 ---

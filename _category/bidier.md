@@ -1,4 +1,4 @@
 ---
-tag: "Bidier"
+tag: "BIDIER"
 permalink: "/categoria/bidier"
 ---
