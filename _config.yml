@@ -19,6 +19,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+include:
+  - _redirects
 
 # Configuration for Disqus
 disqus:
