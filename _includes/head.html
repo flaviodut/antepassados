@@ -10,7 +10,7 @@
   <meta itemprop="name" content="{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}"/>
   <meta itemprop="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   {% if page.categories %}
-  <meta itemprop="keywords" content="genealogia, história, migração, europa, américa do sul, brasil, italia, portugal, frança, holanda, {{ page.categories | join: ',' }}" />
+  <meta itemprop="keywords" content="genealogia, história, migração, europa, américa do sul, brasil, italia, portugal, frança, holanda, {{ page.categories | join: ', ' | downcase }}" />
   {% for tag in page.categories %}
   <meta property="article:tag" content="{{ tag }}">
   {% endfor %}
