@@ -32,17 +32,13 @@
 .post-item,
 .post {
   ul {
+    margin: 0;
+    padding: 0;
     
     li {
       display: inline-block;
       margin-right: .313rem;
       margin-bottom: .313rem;
-    }
-
-    li::before {
-      content: '●';
-      margin-right: .5rem;
-      color: darkslateblue;
     }
 
     a,
@@ -142,6 +138,17 @@
 
   p:not(.post-meta)::first-letter {
     font-size: 125%;
+  }
+
+  ul {
+    margin-left: $spacing-unit;
+    margin-bottom: $spacing-unit;
+  }
+
+  li::before {
+    content: '●';
+    margin-right: .5rem;
+    color: darkslateblue;
   }
 
   figure, p {
