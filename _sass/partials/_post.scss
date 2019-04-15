@@ -32,13 +32,17 @@
 .post-item,
 .post {
   ul {
-    margin: 0;
-    padding: 0;
     
     li {
       display: inline-block;
       margin-right: .313rem;
       margin-bottom: .313rem;
+    }
+
+    li::before {
+      content: '●';
+      margin-right: .5rem;
+      color: darkslateblue;
     }
 
     a,
