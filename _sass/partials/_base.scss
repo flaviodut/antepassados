@@ -210,21 +210,36 @@ pre {
  */
 table {
   width: 100%;
+  margin-bottom: 1rem;
   border-collapse: collapse;
+}
+
+table.centered {
+  td {
+    text-align: center;
+  }
 }
 
 thead tr {
   border-bottom: 2px solid $third-color;
 }
 
-thead th {
+thead th, tfoot th {
   color: $third-color;
 }
 
-tbody tr:not(:last-child) {
+tbody tr {
   border-bottom: 1px solid $third-color;
 }
 
 th, td {
   padding: 20px 10px;
+}
+
+caption {
+  caption-side: bottom;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  font-size: .75rem;
+  color: $grey-color;
 }
