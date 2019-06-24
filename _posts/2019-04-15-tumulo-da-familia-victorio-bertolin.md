@@ -95,6 +95,6 @@ Transcrevo aqui as informações das placas funerárias dos meus trisavós Ernes
   </tfoot>
 </table>
 
-Agora é correr no cartório e obter as certiões.
+Agora é correr no cartório e obter as certidões.
 
 {% include images.html name="flavio-dutra-a-frente-do-tumulo-da-familia-de-victorio-bertolin.jpg" caption="Eu à frente do túmulo da Família Victório Bertolin no Cemitério São Paulo Cardeal onde meus trisavós estão sepultados, 13 abril 2019." alt="Eu à frente do túmulo da Família Victório Bertolin no Cemitério São Paulo Cardeal onde meus trisavós estão sepultados, 13 abril 2019." %}
