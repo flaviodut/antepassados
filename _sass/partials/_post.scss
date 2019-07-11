@@ -81,9 +81,13 @@
 
   .post-title {
     margin-bottom: 0;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.1;
     margin-bottom: $spacing-unit / 2;
+    
+    @include breakpoint($lg) {
+      font-size: 3.5rem;
+    }
   }
 
   .post-date-published {
