@@ -14,11 +14,8 @@ github_username: flaviodut
 permalink: /:year-:month-:day/:title
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
 include:
   - _redirects
 
