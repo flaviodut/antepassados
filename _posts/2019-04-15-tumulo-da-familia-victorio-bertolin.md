@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Túmulo da Família Victorio Bertolin"
+image: "/assets/posts/2019-04-15-tumulo-da-familia-victorio-bertolin/cover.jpg"
 date:   2019-04-15 17:11:00 -0200
-last-update: 2019-04-15 12:53:00 -0200
+last-update: 2019-08-02 19:04:00 -0200
 categories:
   - BERTOLIN
   - BIDIER
@@ -15,13 +16,13 @@ Em 1909, uma família francesa embarcou no vapor Frisia no porto de {% include l
 
 A Bérangère, cujo nome completo era **Bérangère Marcelle Louise BIDIER**, é uma das minhas bisavós maternas. Os nomes completos de Marceau e da Mercedés eram **Marceau Marcelin Ernest BIDIER** e **Mercedés Georgette Suzanne BIDIER**. Os pais deles eram **Ernest BIDIER** e **Louise Armanda MICHAU**, meus trisavós.
 
-{% include images.html name="lista-de-bordo-vapor-frisia-familia-bidier-1909.png" caption="Fragmento da lista de bordo do vapor Frisia, ano de 1909. Família BIDIER." alt="Fragmento da lista de bordo do vapor Frisia, ano de 1909. Família BIDIER." %}
+{% include images.html name="lista-de-bordo-vapor-frisia-familia-bidier-1909.jpg" caption="Fragmento da lista de bordo do vapor Frisia, ano de 1909. Família BIDIER." alt="Fragmento da lista de bordo do vapor Frisia, ano de 1909. Família BIDIER." %}
 
 ## Rumos tomados
 
 Essa família é o meu ramo francês. Primeiramente eles se estabeleceram em {% include link-to-google-maps.html hash="emSFbHDHqJo" name="Ribeirão Preto" %}, mais precisamente na Fazenda Guatapará. Alguns anos depois, o filho mais velho, Marceau, voltou à França para cumprir o serviço militar e acabou por se estabelecer por lá definitivamente. Em Guatapará, minha bisavó Bérangère, se casou com o português, Adão Gomes MAIA, em 1923 e teve seu primeiro filho, o meu avô materno, Alberto Marceau MAIA, nascido em 1924.
 
-Não sei exatamente qual foi a motivação de terem deixado Guatapará, mas uma possibilidade é que por conta do trabalho de mecânico/ferramenteiro do meu bisavô Adão nas indústrias Matarazzo ele tenha recebido uma proposta ou vislumbrou a possibilidade de vir para {% include link-to-google-maps.html hash="jKdgxkLB7NS2" name="São Paulo" %}. Isso aconteceu pouco depois do nascimento do Alberto. Pelo que consta a história familiar, Ernest e Louise permaneceram ainda um tempo na fazenda, mas já em 1928, a filha mais nova, Mercedés, se casa na Moóca em São Paulo com Victorio Bertolin, filho de italianos e nascido em {% include link-to-google-maps.html hash="nnLkzhkT1K22" name="Barbacena, Minas Gerais" %}.
+Não sei exatamente qual foi a motivação de terem deixado Guatapará, mas uma hipótese é que por conta do trabalho de mecânico/ferramenteiro do meu bisavô Adão nas indústrias Matarazzo ele tenha recebido uma proposta ou vislumbrou a possibilidade de vir para {% include link-to-google-maps.html hash="jKdgxkLB7NS2" name="São Paulo" %}. Isso aconteceu pouco depois do nascimento do seu primeiro filho, Alberto. Pelo que consta a história familiar, Ernest e Louise permaneceram ainda um tempo na fazenda, mas já em 1928, a filha mais nova, Mercedés, se casa na Moóca em São Paulo com Victorio Bertolin, filho de italianos e nascido em {% include link-to-google-maps.html hash="nnLkzhkT1K22" name="Barbacena, Minas Gerais" %}.
 
 Victorio e Mercedés moraram na {% include link-to-google-maps.html hash="VVYNXkqPVxT2" name="Rua Sumidouro" %}, no bairro de Pinheiros em São Paulo, onde hoje é um conjunto de edifícios residênciais. Ele possuía uma olaria e tinha como hobby seu orquidário, com que participava de concursos e chegou a ganhar alguns, inclusive.
 
