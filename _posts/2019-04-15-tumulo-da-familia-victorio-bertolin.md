@@ -7,9 +7,9 @@ last-update: 2019-08-02 19:04:00 -0200
 categories:
   - BERTOLIN
   - BIDIER
+  - cemitério
   - MICHAU
   - MAIA
-  - túmulo
 ---
 
 Em 1909, uma família francesa embarcou no vapor Frisia no porto de {% include link-to-google-maps.html hash="98dUucMRpYQ2" name="La Pallice, França" %}, rumo ao {% include link-to-google-maps.html hash="7KgiBskNm842" name="Rio de Janeiro" %}. Essa família era composta por Ernest (pai), Louise (mãe), Marceau (filho), Bérangère (filha) e Mercedés (filha), respectivamente com 35, 34, 11, 8 e 3 anos.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+img: "/assets/posts/2017-10-21-welcome-to-jekyll/welcome.jpg"
+description: "Description of the post or the first paragraph."
 date:   2017-10-21 12:21:14 -0200
 last-update: 2017-12-07 21:48:00 -0200
 author: Fábio Umberto van Hurtere
