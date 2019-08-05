@@ -1,4 +1,4 @@
 ---
 tag: "MAGRINI"
-permalink: "/categoria/magrini"
+permalink: "/categorias/magrini"
 ---

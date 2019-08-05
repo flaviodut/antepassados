@@ -1,4 +1,4 @@
 ---
 tag: "BERTOLIN"
-permalink: "/categoria/bertolin"
+permalink: "/categorias/bertolin"
 ---

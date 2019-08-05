@@ -1,4 +1,4 @@
 ---
 tag: "MICHAU"
-permalink: "/categoria/michau"
+permalink: "/categorias/michau"
 ---

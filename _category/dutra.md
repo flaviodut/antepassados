@@ -1,4 +1,4 @@
 ---
 tag: "DUTRA"
-permalink: "/categoria/dutra"
+permalink: "/categorias/dutra"
 ---

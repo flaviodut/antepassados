@@ -1,4 +1,4 @@
 ---
 tag: "França"
-permalink: "/categoria/franca"
+permalink: "/categorias/franca"
 ---

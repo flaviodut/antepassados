@@ -1,4 +1,4 @@
 ---
 tag: "MAIA"
-permalink: "/categoria/maia"
+permalink: "/categorias/maia"
 ---

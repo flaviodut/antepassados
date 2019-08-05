@@ -1,4 +1,4 @@
 ---
 tag: "relato"
-permalink: "/categoria/relato"
+permalink: "/categorias/relato"
 ---

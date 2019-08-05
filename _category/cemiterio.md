@@ -1,4 +1,4 @@
 ---
 tag: "cemitério"
-permalink: "/categoria/cemiterio"
+permalink: "/categorias/cemiterio"
 ---

@@ -1,4 +1,4 @@
 ---
 tag: "BRANCO"
-permalink: "/categoria/branco"
+permalink: "/categorias/branco"
 ---

@@ -1,4 +1,4 @@
 ---
 tag: "BIDIER"
-permalink: "/categoria/bidier"
+permalink: "/categorias/bidier"
 ---

@@ -1,4 +1,4 @@
 ---
 tag: "COLLEONI"
-permalink: "/categoria/colleoni"
+permalink: "/categorias/colleoni"
 ---
