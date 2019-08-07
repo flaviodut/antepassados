@@ -17,10 +17,6 @@ body {
   width: 100%;
   margin-bottom: $spacing-unit * 2;
 
-  @include breakpoint($lg) {
-    flex-flow: initial;
-  }
-
   h1, h2, h3, h4, h5, h6 {
     color: $brand-color;
   }
@@ -28,7 +24,7 @@ body {
 
 .page-sidebar {
   width: 100%;
-  padding: $spacing-unit ($spacing-unit / 2);
+  padding: 0 ($spacing-unit / 2) $spacing-unit;
   text-align: center;
 
   ul {
@@ -44,21 +40,8 @@ body {
     list-style: none;
   }
 
-  @include breakpoint($lg) {
-    position: fixed;
-    top: auto;
-    right: 0;
-    width: 200px;
-    height: auto;
-    text-align: right;
-
-    ul {
-      flex-flow: column nowrap;
-    }
-
-    li {
-      margin: 0 0 10px;
-    }
+  .home + & {
+    padding-top: $spacing-unit * 2;
   }
 }
 
@@ -85,6 +68,13 @@ body {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  & ~ .page-sidebar {
+    @include breakpoint($lg) {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
 }
 
 .post {
@@ -92,6 +82,13 @@ body {
     max-width: 600px;
     margin: 0 auto;
   }
+
+  & ~ .page-sidebar {
+    @include breakpoint($lg) {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  } 
 }
 
 .site-footer {

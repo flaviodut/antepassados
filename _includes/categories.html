@@ -1,5 +1,8 @@
+{% if page.hide_categories != true %}
 <aside class="page-sidebar">
+  {% if page.layout == 'home' or page.is_page != true %}
   <h3>Categorias</h3>
+  {% endif %}
   <ul>
   {% assign categories_list = site.categories | sort %}
     {% if categories_list.first[0] == null %}
@@ -14,3 +17,4 @@
   {% assign categories_list = nil %}
   </ul>
 </aside>
+{% endif %}

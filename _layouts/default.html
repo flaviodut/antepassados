@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "pt-br" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'pt-br' }}">
 
   {% include head.html %}
 
@@ -14,8 +14,8 @@ layout: compress
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
+        {% include categories.html %}
       </div>
-      {% include categories.html %}
     </main>
 
     {% include footer.html %}
