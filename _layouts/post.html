@@ -6,7 +6,6 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    {% if page.categories %}
     <p class="post-meta">
       <span class="post-date-published">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -39,13 +38,7 @@ layout: default
         </span>
       {% endif %}
     </p>
-    <ul>
-      {% assign categories_list = page.categories | sort %}
-      {% for category in categories_list %}
-      <li><a class="tag" href="{{ site.url }}{{ site.baseurl }}/categorias/{{ category | downcase | replace: ' ', '-'| replace: 'ã', 'a' | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'õ', 'o' | replace: 'ô', 'o' | replace: 'ú', 'u' | replace: 'ç', 'c' }}">{{category}}</a></li>
-      {% endfor %}
-    </ul>
-    {% endif %}
+    {% include categories.html local="page" %}
   </header>
 
   <div class="post-content" itemprop="articleBody">
