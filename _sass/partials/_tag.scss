@@ -1,33 +1,73 @@
+.tags {
+  width: 100%;
+  padding: 0 ($spacing-unit / 2) $spacing-unit;
+
+  h3 {
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 5px 0;
+    list-style: none;
+  }
+
+  .home ~ & {
+    padding-top: $spacing-unit * 2;
+
+    @include breakpoint($lg) {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+
+  .post ~ & {
+    @include breakpoint($lg) {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  } 
+}
+
 .tag,
 .tag:active,
 .tag:visited {
-  display: inline-block;
-  padding: 2px 3px 2px 10px;
-  
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  padding: 0 5px;
   font-size: .875rem;
   color: $second-color;
-
-  background-color: white;
-  border: 1px solid $second-color;
-  border-radius: 1.5rem;
   transition: all 200ms ease-in-out;
 
   > span {
-    padding: 1px 8px;
-    font-size: .875rem;
-    color: white;
-    background-color: $second-color;
-    border-radius: 1.5rem;
+    margin-left: 5px;
+    font-size: 78%;
+    color: #bbb;
     transition: all 200ms ease-in-out;
+  }
+
+  > span::before {
+    content: '(';
+  }
+
+  > span::after {
+    content: ')';
   }
 }
 
 .tag:hover,
 .tag:focus {
   color: lighten($second-color, 15%);
-  border-color: lighten($second-color, 15%);
 
   > span {
-    background-color: lighten($second-color, 15%);
+    color: darken(#bbb, 15%);
   }
 }

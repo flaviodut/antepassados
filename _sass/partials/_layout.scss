@@ -22,29 +22,6 @@ body {
   }
 }
 
-.page-sidebar {
-  width: 100%;
-  padding: 0 ($spacing-unit / 2) $spacing-unit;
-  text-align: center;
-
-  ul {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    margin: 5px;
-    list-style: none;
-  }
-
-  .home + & {
-    padding-top: $spacing-unit * 2;
-  }
-}
-
 .wrapper {
   width: 100%;
   padding: 0 ($spacing-unit / 2) $spacing-unit;
@@ -68,13 +45,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
   }
-
-  & ~ .page-sidebar {
-    @include breakpoint($lg) {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-  }
 }
 
 .post {
@@ -82,13 +52,6 @@ body {
     max-width: 600px;
     margin: 0 auto;
   }
-
-  & ~ .page-sidebar {
-    @include breakpoint($lg) {
-      max-width: 600px;
-      margin: 0 auto;
-    }
-  } 
 }
 
 .site-footer {
