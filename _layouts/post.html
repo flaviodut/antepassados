@@ -63,16 +63,3 @@ layout: default
     {% include disqus_comments.html %}
   {% endif %}
 </article>
-
-<script>
-  (function(){
-    const fimEl = document.querySelector('#fim');
-
-    if (fimEl) {
-      const fimArr = [['fim', 'pt-br'], ['fine', 'it'], ['finir', 'fr'], ['einde', 'nl']];
-      const fimRand = Math.floor(Math.random()*fimArr.length);
-      
-      fimEl.innerHTML = `&#8212; <i lang="${fimArr[fimRand][1]}">${fimArr[fimRand][0]}</i>`;
-    }
-  })();
-</script>
