@@ -8,7 +8,11 @@
 
 {% if categories_list != null and page.hide_categories != true %}
   {% if include.local == null %}
-    <aside class="tags">
+    {% if page.title == 'Categorias' %}
+      <aside class="tags tags--no-padding-top">
+    {% else %}
+      <aside class="tags">
+    {% endif %}
       {% if page.hide_categories_title != true %}
         <h3>Categorias</h3>
       {% endif %}

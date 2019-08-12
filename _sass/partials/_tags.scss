@@ -1,6 +1,6 @@
 .tags {
   width: 100%;
-  padding: 0 ($spacing-unit / 2) $spacing-unit;
+  padding: ($spacing-unit * 3) ($spacing-unit / 2) $spacing-unit;
 
   h3 {
     text-align: center;
@@ -20,20 +20,25 @@
   }
 
   .home ~ & {
-    padding-top: $spacing-unit * 2;
-
     @include breakpoint($lg) {
       max-width: 1200px;
       margin: 0 auto;
     }
   }
 
-  .post ~ & {
+  .post ~ &,
+  .category ~ & {
     @include breakpoint($lg) {
       max-width: 600px;
       margin: 0 auto;
+      padding-left: 0;
+      padding-right: 0;
     }
-  } 
+  }
+
+  &.tags--no-padding-top {
+    padding-top: 0;
+  }
 }
 
 .tag,
