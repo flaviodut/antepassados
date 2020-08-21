@@ -1,4 +1,4 @@
 ---
 tag: "Brasil"
-permalink: "/categoria/brasil"
+permalink: "/categorias/brasil"
 ---

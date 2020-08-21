@@ -1,0 +1,46 @@
+{% if include.local == 'post' %}
+  {% assign categories_list = post.categories | sort %}
+{% elsif include.local == 'page' %}
+  {% assign categories_list = page.categories | sort %}
+{% else %}
+  {% assign categories_list = site.categories | sort %}
+{% endif %}
+
+{% if categories_list != null and page.hide_categories != true %}
+  {% if include.local == null %}
+    {% if page.title == 'Categorias' %}
+      <aside class="tags tags--no-padding-top">
+    {% else %}
+      <aside class="tags">
+    {% endif %}
+      {% if page.hide_categories_title != true %}
+        <h3>Categorias</h3>
+      {% endif %}
+      <ul>
+        {% if categories_list.first[0] == null %}
+          {% for category in categories_list %}
+            <li><a class="tag" href="{{ site.url }}{{ site.baseurl }}/categorias/{{ category | downcase | replace: ' ', '-'| replace: 'ã', 'a' | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'õ', 'o' | replace: 'ô', 'o' | replace: 'ú', 'u' | replace: 'ç', 'c' }}">{{ category }} <span>{{ category[1].size }}</span></a></li>
+          {% endfor %}
+        {% else %}
+          {% for category in categories_list %}
+            <li><a class="tag" href="{{ site.url }}{{ site.baseurl }}/categorias/{{ category[0] | downcase | replace: ' ', '-'| replace: 'ã', 'a' | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'õ', 'o' | replace: 'ô', 'o' | replace: 'ú', 'u' | replace: 'ç', 'c' }}">{{ category[0] }} <span>{{ category[1].size }}</span></a></li>
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </aside>
+  {% else %}
+    <ul>
+      {% if categories_list.first[0] == null %}
+        {% for category in categories_list %}
+          <li><a class="tag" href="{{ site.url }}{{ site.baseurl }}/categorias/{{ category | downcase | replace: ' ', '-'| replace: 'ã', 'a' | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'õ', 'o' | replace: 'ô', 'o' | replace: 'ú', 'u' | replace: 'ç', 'c' }}">{{ category }}</a></li>
+        {% endfor %}
+      {% else %}
+        {% for category in categories_list %}
+          <li><a class="tag" href="{{ site.url }}{{ site.baseurl }}/categorias/{{ category[0] | downcase | replace: ' ', '-'| replace: 'ã', 'a' | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'é', 'e' | replace: 'ê', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'õ', 'o' | replace: 'ô', 'o' | replace: 'ú', 'u' | replace: 'ç', 'c' }}">{{ category[0] }}</a></li>
+        {% endfor %}
+      {% endif %}
+    </ul>
+  {% endif %}
+{% endif %}
+
+{% assign categories_list = nil %}

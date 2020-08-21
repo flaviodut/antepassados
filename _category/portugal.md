@@ -1,4 +1,4 @@
 ---
 tag: "Portugal"
-permalink: "/categoria/portugal"
+permalink: "/categorias/portugal"
 ---

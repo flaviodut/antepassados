@@ -2,6 +2,8 @@
 layout: page
 title: Sobre
 permalink: /sobre/
+is_page: true
+hide_categories: true
 ---
 
 ## Sobre o sítio

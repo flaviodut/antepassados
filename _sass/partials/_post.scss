@@ -2,7 +2,7 @@
   display: flex;
   flex-flow: row wrap;
 
-  margin: 0;
+  margin: ($spacing-unit / 2) 0 0;
   padding: 0;
 
   > li {
@@ -32,20 +32,13 @@
 .post-item,
 .post {
   ul {
-    margin: 0;
+    margin: 0 0 0 -5px;
     padding: 0;
     
     li {
       display: inline-block;
       margin-right: .313rem;
       margin-bottom: .313rem;
-    }
-
-    a,
-    a:active,
-    a:visited {
-      padding-right: .625rem;
-      font-size: .75rem;
     }
   }
 }
@@ -81,9 +74,13 @@
 
   .post-title {
     margin-bottom: 0;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.1;
     margin-bottom: $spacing-unit / 2;
+    
+    @include breakpoint($lg) {
+      font-size: 3.5rem;
+    }
   }
 
   .post-date-published {
@@ -138,6 +135,17 @@
 
   p:not(.post-meta)::first-letter {
     font-size: 125%;
+  }
+
+  ul {
+    margin-left: $spacing-unit;
+    margin-bottom: $spacing-unit;
+  }
+
+  li::before {
+    content: '●';
+    margin-right: .5rem;
+    color: darkslateblue;
   }
 
   figure, p {
@@ -213,4 +221,10 @@
 
 .fim {
   color: #ddd;
+
+  span {
+    font-size: 85%;
+    font-style: normal;
+    opacity: .75;
+  }
 }

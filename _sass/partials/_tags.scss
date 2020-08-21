@@ -1,0 +1,78 @@
+.tags {
+  width: 100%;
+  padding: ($spacing-unit * 3) ($spacing-unit / 2) $spacing-unit;
+
+  h3 {
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 5px 0;
+    list-style: none;
+  }
+
+  .home ~ & {
+    @include breakpoint($lg) {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+
+  .post ~ &,
+  .category ~ & {
+    @include breakpoint($lg) {
+      max-width: 600px;
+      margin: 0 auto;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  &.tags--no-padding-top {
+    padding-top: 0;
+  }
+}
+
+.tag,
+.tag:active,
+.tag:visited {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  padding: 0 5px;
+  font-size: .875rem;
+  color: $second-color;
+  transition: all 200ms ease-in-out;
+
+  > span {
+    margin-left: 5px;
+    font-size: 78%;
+    color: #bbb;
+    transition: all 200ms ease-in-out;
+  }
+
+  > span::before {
+    content: '(';
+  }
+
+  > span::after {
+    content: ')';
+  }
+}
+
+.tag:hover,
+.tag:focus {
+  color: lighten($second-color, 15%);
+
+  > span {
+    color: darken(#bbb, 15%);
+  }
+}
