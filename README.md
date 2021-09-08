@@ -4,7 +4,7 @@ Sítio/blog dedicado as minhas descobertas genealógicas e histórias familiares
 
 ## Core
 
-Este blog foi feito usando o fantástico e prático [Jekyll](https://jekyll.github.io/) e uma customização do [tema Minima](https://jekyll.github.io/minima/).
+Este sítio/blog foi feito usando o fantástico e prático [Jekyll](https://jekyll.github.io/) e uma customização do [tema Minima](https://jekyll.github.io/minima/).
 
 ## License
 
