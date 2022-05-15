@@ -264,8 +264,8 @@ Relação de livros e outros textos utilizados para embasamento teórico da Part
 2. BACKHEUSER, Everardo. REVISTA DO CLUB DE ENGENHARIA DO RIO DE JANEIRO. **Da trilha ao Trilho**. Rio de Janeiro, n. 69, set./out. 1940. p. 102-124.
 3. BASTOS, Benedicto Alipio. **Caçapava, apontamentos históricos e genealógicos: subsidios para a história e a genealogia do Vale do Paraíba**. Caçapava, 1955.
 4. BOPP, Itamar. REVISTA GENEALÓGICA LATINA. **Roque Bicudo Leme — Achegas a genealogia Paulistana de Silva Leme. Ramos paulistas e fluminenses**. São Paulo: Instituto Genealógico Brasileiro, n. 8, 1956.
-5. ______. REVISTA GENEALÓGICA LATINA. **Primeiros povoadores de Resende: família Visconde do Salto**. São Paulo: Instituto Genealógico Brasileiro, n. 12, 1960. p. 131-134.
-6. ______. REVISTA GENEALÓGICA LATINA. **Primeiros casamentos na matriz de Resende - n.os 01 a 108**. São Paulo: Instituto Genealógico Brasileiro, n. 13, 1961. p. 76.
+5. BOPP, Itamar. REVISTA GENEALÓGICA LATINA. **Primeiros povoadores de Resende: família Visconde do Salto**. São Paulo: Instituto Genealógico Brasileiro, n. 12, 1960. p. 131-134.
+6. BOPP, Itamar. REVISTA GENEALÓGICA LATINA. **Primeiros casamentos na matriz de Resende - n.os 01 a 108**. São Paulo: Instituto Genealógico Brasileiro, n. 13, 1961. p. 76.
 7. ELLIS Junior, Alfredo. **O Bandeirismo Paulista e o Recuo do Meridiano**. São Paulo: Typographia Piratininga, 1924.
 8. LANCASTRE, Paulo. **Há 251 anos era criada a capitania de São Paulo e Minas do Ouro**. Folha de São Paulo, São Paulo, ano 36, n. 11227, 23 nov. 1960. 2.o caderno, p. 5.
 9. LEME, Luiz Gonzaga da Silva. **Genealogia paulistana**. São Paulo: Suprat & Comp., 1905. v. 1-9.
@@ -277,9 +277,9 @@ Relação de livros e outros textos utilizados para embasamento teórico da Part
 15. MELLO, Geraldo Cardoso de. BIBLIOTECA GENEALÓGICA BRASILEIRA. **Os Almeidas e os Nogueiras de Bananal**. São Paulo: Instituto Genealógico Brasileiro, 1942. v. 1, p. 107.
 16. MORAES, Alexandre José de Mello. **Corographia historica, chronographica, genealogica, nobiliaria e politica do Imperio do Brasil**. Rio de Janeiro: Typographia Americana, 1858-1863. v. 5.
 17. PORTO, Luiz de Almeida Nogueira. **Revelações de antigos inventários, 1822-1882**. O Estado de S.Paulo, São Paulo, ano 4, n. 161, 2 dez. 1979. Suplemento Cultural, p. 13.
-18. ______. **A obra esquecida de Villaronga**. O Estado de S.Paulo, São Paulo, ano 4, n. 161, 2 dez. 1979. Suplemento Cultural, p. 13.
+18. PORTO, Luiz de Almeida Nogueira. **A obra esquecida de Villaronga**. O Estado de S.Paulo, São Paulo, ano 4, n. 161, 2 dez. 1979. Suplemento Cultural, p. 13.
 19. RIBEIRO, José Jacintho. **Chronologia Paulista, ou relação historica dos factos mais importantes ocorridos em S. Paulo desde a chegada de Martim Affonso de Souza á S. Vicente até 1898**. [São Paulo], 1899. v. 1.
-20. ______. **Chronologia Paulista, ou relação historica dos factos mais importantes ocorridos em S. Paulo desde a chegada de Martim Affonso de Souza á S. Vicente até 1898**. [São Paulo], 1901. v. 2.
+20. RIBEIRO, José Jacintho. **Chronologia Paulista, ou relação historica dos factos mais importantes ocorridos em S. Paulo desde a chegada de Martim Affonso de Souza á S. Vicente até 1898**. [São Paulo], 1901. v. 2.
 21. Silveira, Carlos da. BIBLIOTECA GENEALÓGICA BRASILEIRA. **Subsídios Genealógicos**. São Paulo: Instituto Genealógico Brasileiro, 1942. v. 3, p. 50-51.
 22. TAUNAY, Affonso d'Escragnolle. **História do café no Brasil: no Brasil imperial 1822-1872**. Rio de Janeiro: Departamento Nacional do Café, 1939. v. 5. p. 335.
 23. ZALUAR, Augusto-Emílio. **Peregrinação pela província de S. Paulo 1860-61**. São Paulo: Ed. Cultura, 1943, p. 266.
@@ -287,7 +287,7 @@ Relação de livros e outros textos utilizados para embasamento teórico da Part
 ### Observações sobre as referências
 
 **Pedro Taques** (p. 9)
-É mencionado pelo autor algumas obras genealógicas muito conhecidas no meio. O nome completo do autor é Pedro Taques de Almeida Paes Leme, e o nome da obra é "Nobiliarchia paulistana historica e genealogica". Uma edição de 1976, contando com os seus três tomos encontra-se disponível na biblioteca digital do SEADE - Fundação Sistema Estadual de Análise de Dados](https://bibliotecadigital.seade.gov.br/view/listarPublicacao.php?lista=0&opcao=6&busca=&tipoFiltro=pa.id_autor&filtro=392&descFiltro=LEME,%20Pedro%20Taques%20de%20Almeida%20Paes).
+É mencionado pelo autor algumas obras genealógicas muito conhecidas no meio. O nome completo do autor é Pedro Taques de Almeida Paes Leme, e o nome da obra é "Nobiliarchia paulistana historica e genealogica". Uma edição de 1976, contando com os seus três tomos encontra-se disponível na biblioteca digital do [SEADE - Fundação Sistema Estadual de Análise de Dados](https://bibliotecadigital.seade.gov.br/view/listarPublicacao.php?lista=0&opcao=6&busca=&tipoFiltro=pa.id_autor&filtro=392&descFiltro=LEME,%20Pedro%20Taques%20de%20Almeida%20Paes).
 
 **Silva Leme** (p. 9, 32)
 É mencionado pelo autor algumas obras genealógicas muito conhecidas no meio. O nome completo do autor é Luiz Gonzaga da Silva Leme, sua obra "Genealogia paulistana" foi publicada entre os anos de 1903 e 1905 e foram organizadas em 9 volumes. Iniciado em 1999 e empenhados em um trabalho que perdurou por 4 anos, o Projeto Genealogia Paulista, concluiu a transcrição da obra de Silva Leme e ela encontra-se disponível online [neste endereço](http://www.arvore.net.br/Paulistana/). Na página 32 é mencionado o senhor Thomé Rodrigues Nogueira do Ó dando como [referência Vol. VI, pág. 433](http://www.arvore.net.br/Paulistana/Bicudos_4.htm).
