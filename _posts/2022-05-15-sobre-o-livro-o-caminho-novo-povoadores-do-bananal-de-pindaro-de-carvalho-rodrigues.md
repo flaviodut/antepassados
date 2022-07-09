@@ -3,8 +3,9 @@ layout: post
 title:  "Sobre o livro \"O Caminho Novo: Povoadores do Bananal\" de Píndaro de Carvalho Rodrigues"
 image: "/assets/posts/2022-05-15-sobre-o-livro-o-caminho-novo-povoadores-do-bananal-de-pindaro-de-carvalho-rodrigues/cover.jpg"
 date:   2022-05-15 16:30:00 -0200
+last-update: 2022-07-09 18:30:00 -0200
 categories:
-  - bananal
+  - Bananal
   - livro
 ---
 

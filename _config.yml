@@ -1,7 +1,7 @@
 title: Antepassados
 author: Flávio Alberto Dutra
 email: flavio.adore@gmail.com
-description: Sítio dedicado à genealogia, minhas descobertas e histórias familiares.
+description: Sítio dedicado à genealogia, minhas descobertas e histórias familiares
 lang: pt-br
 url: https://antepassados.flaviodutra.com.br
 logo: /assets/images/logo-mustard.png
@@ -16,22 +16,16 @@ keywords:
   - Portugal
   - Açores
   - França
-  - Holanda
 
 # Social
 facebook:
   username: flaviodutra
-
-twitter:
-  username: flaviodut
-  card: summary
 
 github:
   username: flaviodut
 
 social:
   links:
-    - https://twitter.com/flaviodut
     - https://www.facebook.com/flaviodutra
 
 # Build settings

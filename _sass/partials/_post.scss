@@ -137,15 +137,36 @@
     font-size: 125%;
   }
 
-  ul {
+  ul, ol {
     margin-left: $spacing-unit;
     margin-bottom: $spacing-unit;
   }
+    
+  ul {
+    li::before {
+      content: '●';
+      margin-right: .5rem;
+      color: darkslateblue;
+    }
 
-  li::before {
-    content: '●';
-    margin-right: .5rem;
-    color: darkslateblue;
+    li li::before {
+      content: '⚬';
+    }
+  }
+
+  ol {
+    li::marker {
+      font-weight: 700;
+      color: darkslateblue;
+    }
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  p::first-letter {
+    margin-left: $spacing-unit;
   }
 
   figure, p {
