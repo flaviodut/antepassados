@@ -3,7 +3,7 @@ layout: post
 title:  "Sobre o livro \"O Caminho Novo: Povoadores do Bananal\" de Píndaro de Carvalho Rodrigues"
 image: "/assets/posts/2022-05-15-sobre-o-livro-o-caminho-novo-povoadores-do-bananal-de-pindaro-de-carvalho-rodrigues/cover.jpg"
 date:   2022-05-15 16:30:00 -0200
-last-update: 2022-07-09 18:30:00 -0200
+last-update: 2022-11-04 11:08:00 -0200
 categories:
   - Bananal
   - livro
@@ -176,6 +176,9 @@ Há a expressão "Pais de:" mas não é listado nenhum filho do casal.
 **Bn. 33 — Terezinha de Carvalho Gomes** (p. 127)
 Texto mal formulado, diz: "Terezinha (...) c/c Eclevodeu Gomes, de Botucatu e Pamela Coraine". Entendi que o autor acabou por ocultar o nome do pai de Eclevodeu sem intenção.
 
+**Art. 8 - Filho 8: Carolina Maria de Jesus** (p. 129)
+Há inconsistência de datas que seria necessário comprovação documental. O autor mencionado que o ano de falecimento, 1881, de Carolina é anterior ao nascimento do último filho, Viriato Raymundo Dutra (cap. 7), nascido em 1890.
+
 **F. 13 — Francisca Magnólia de Sousa Carvalho** (p. 130)
 A grafia correta do sobrenome suêco que o autor menciona como Bergstron, é Bergström.
 
@@ -253,6 +256,9 @@ Quando o autor trata da esposa do Agenor, ele a cita como "Nilda Grau", na verda
 
 **N. 5 — Teófilo Raymundo Dutra** (p. 153)
 Ano de nascimento do Teófilo não faz sentido, se fosse mesmo 1862, ele seria o primeiro filho e não o quinto. Acredito que seja 1872.
+
+**N. 9 - Viriato Raymundo Dutra** (p. 154)
+Há inconsistência de datas que seria necessário comprovação documental. O ano de nascimento informado de Viriato é pós o falecimento da mãe, Carolina Maria de Jesus (cap. 3), que foi informado como sendo em 1881.
 
 **N. 10 - Otávio Raymundo Dutra** (p. 154)
 A grafia correta do primeiro nome do meu bisavô é Octávio e não Otávio, como mencionado pelo autor.
