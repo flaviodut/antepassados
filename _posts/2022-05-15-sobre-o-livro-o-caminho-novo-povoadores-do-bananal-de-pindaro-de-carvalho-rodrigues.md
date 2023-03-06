@@ -82,6 +82,9 @@ Organizei as anotações na estrutura em que se encontram no livro pelos capítu
 
 ### Capítulo 1 - Maria Josefa da Conceição (p. 73-77)
 
+**F. 1 - Teodora Maria de Jesus** (p. 73)
+É mencionado pelo autor que a sogra de Teodora chamava-se Francisca Rodrigues da Silva, no entanto, nos registros de casamentos de Teodora e sua irmã Rosa, ambas casadas com os irmãos Antônio José da Silva e Tomé da Silva, respectivamente, o nome aparece como Francisca Maria da Silva.
+
 **Bn. 2 — Luiz da Silva Primo** (p. 73)
 A data de falecimento de Luiz é 02/10/1960 e não 1920 como consta no livro.
 
@@ -101,6 +104,9 @@ De acordo com o registro de nascimento, o nome correto é Ynel e não Inel, e o 
 **Bn. 7 — Alvaro Meireles da Silva** (p. 75)
 Quando citado o sobrenome Itrieri, o correto é Intrieri.
 
+**F. 2 - Rosa Maria de Jesus** (p. 76)
+O autor diz que o seu marido, Tomé José da Silva Sobrinho era neto paterno de João José Inácio, no entanto, o registro de casamento do casal menciona o nome sendo Tomé da Silva e com a filiação de João José Inácio e Francisca Maria da Silva.
+
 ### Capítulo 2 - José Rodrigues da Rosa (p. 79-80)
 
 _Sem anotações._
@@ -115,6 +121,11 @@ Não duvido da fertilidade do casal, mas são listados vinte (!!!) filhos para o
 
 **Bn. 9 — Eurídice** (p. 99)
 Eurídice é na verdade Eurides. De acordo com o registro de nascimento, o seu nome completo é Eurides Nogueira da Silva, composição de sobrenome que difere dos demais irmãos mencionados no livro como sendo Cândido da Silva.
+
+**N. 9 - Julieta Carvalho dos Santos** (p. 101)
+TODO: AJEITAR
+Domiciana Nogueira é Domiciana Nogueira da Silva, conforme registro de casamento. No mesmo registro, o nome da mãe aparece como Maria da Silva, ao invés de Mariana da Silva.
+O nome da mãe de José Ramos da Silva, é mencionada no registro de casamento do filho como: Francisca Ramos dos Santos, ao invés de Francisca Xavier dos Santos; pode ser um equívoco do autor ou o Xavier pode ser o sobrenome do pai de Francisca.
 
 **Bn. 59 — Eugênio Guilherme Lau** (p. 105)
 A falta de quebra de linha após o nome da pessoa causa certa confusão em uma primeira leitura, mas ele vai listar os filhos do segundo casamento.
@@ -181,6 +192,9 @@ Há inconsistência de datas que seria necessário comprovação documental. O a
 
 **F. 13 — Francisca Magnólia de Sousa Carvalho** (p. 130)
 A grafia correta do sobrenome suêco que o autor menciona como Bergstron, é Bergström.
+
+**RAMOS DA SILVA** (p. 131)
+Quando mencionado a mãe de José Júlio, o autor menciona Adriana Florinda Nogueira, no entanto, o nome que apareceu em seu registro de casamento com José Ramos da Silva é Adriana da Glória Nogueira.
 
 **N. 1 — Zara Carvalho Rodrigues/N. 2 — Zilah Carvalho Rodrigues** (p. 134)
 O autor do livro não menciona data e local do nascimento das próprias filhas.
