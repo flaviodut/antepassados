@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Sobre o livro \"O Caminho Novo: Povoadores do Bananal\" de Píndaro de Carvalho Rodrigues"
-image: "/assets/posts/2022-05-15-sobre-o-livro-o-caminho-novo-povoadores-do-bananal-de-pindaro-de-carvalho-rodrigues/cover.jpg"
-date:   2022-05-15 16:30:00 -0200
-last-update: 2022-11-04 11:08:00 -0200
+title: 'Sobre o livro "O Caminho Novo: Povoadores do Bananal" de Píndaro de Carvalho Rodrigues'
+image: '/assets/posts/2022-05-15-sobre-o-livro-o-caminho-novo-povoadores-do-bananal-de-pindaro-de-carvalho-rodrigues/cover.jpg'
+date: 2022-05-15 16:30:00 -0200
+last-update: 2023-04-19 14:59:00 -0200
 categories:
-  - Bananal
-  - livro
+    - Bananal
+    - livro
 ---
 
 O livro "O Caminho Novo: povoadores do Bananal", de Píndaro de Carvalho Rodrigues, é um livro histórico-genealógico que apresenta a descendência do casal português, Sebastião José Rodrigues e Inácia Maria de São José. Casados em 1799 na ilha do Faial, ele nascido em Agadão, no continente, e ela na ilha do Faial, no arquipélago dos Açores. Segundo o autor, o casal embarcou para o Brasil no final de 1808, quando o governo imperial promoveu a vinda de casais açorianos e de outras nacionalidades. Esse movimento ocorreu meses depois da viagem (ou fuga?) da família imperial portuguesa e transferência da Corte para o Brasil em ocasião da pressão militar imposta por Napoleão Bonaparte. Instalaram-se em Bananal, cidade paulista localizada no Vale do Paraíba que faz divisa com a cidade de Resende, já no estado do Rio de Janeiro, e onde se consolidava o cultivo do café. O livro divide-se em duas partes: a primeira contextualizando Bananal no período da chegada do casal, além de contar a história de sua fundação; já a segunda, apresenta a genealogia dos descendentes do casal. O autor chega a mencionar uma terceira parte que apresentaria uma "pequena contribuição" de documentos, que não consta na edição. Segundo o editor, apesar de "desnecessária", esta documentação "não se achava incluída nos originais fornecidos ao revisor".
@@ -25,28 +25,28 @@ Tomei conhecimento desse livro com a indicação de um primo e amigo, Reinaldo D
 
 O livro organiza-se em duas partes e uma documentação complementar.
 
-- Prefácio do Autor, 7
-- Apresentação de Luiz de Almeida Nogueira Porto, 11
-- Parte I
-  - Primeiros caminhos e povoações do Vale do Paraíba, 17
-  - Capítulo 1 - Abertura do "Caminho Novo", 23
-  - Capítulo 2 - As sesmarias do Bananal, 29
-  - Capítulo 3 - Novas povoações do "Caminho Novo", 51
-  - Capítulo 4 - Bananal: origens e fundação, 53
-  - Capítulo 5 - Principais edificações de Bananal, 57
-  - Capítulo 6 - Procedência das famílias pioneiras e primeiras autoridades, 63
-- Parte II
-  - Título Rodrigues
-  - Capítulo 1 - Maria Josefa da Conceição, 73
-  - Capítulo 2 - José Rodrigues da Rosa, 79
-  - Capítulo 3 - Joaquim José Rodrigues, 95
-  - Capítulo 4 - Joaquina Maria de Jesus, 135
-  - Capítulo 5 - João José Rodrigues, 141
-  - Capítulo 6 - Rosa Maria de Jesus, 151
-  - Capítulo 7 - Teodora Maria de São José, 152
-- Apêndice
-  - Revelações de antigos inventários: Bananal 1822-1882
-  - Fazendas do Bananal
+-   Prefácio do Autor, 7
+-   Apresentação de Luiz de Almeida Nogueira Porto, 11
+-   Parte I
+    -   Primeiros caminhos e povoações do Vale do Paraíba, 17
+    -   Capítulo 1 - Abertura do "Caminho Novo", 23
+    -   Capítulo 2 - As sesmarias do Bananal, 29
+    -   Capítulo 3 - Novas povoações do "Caminho Novo", 51
+    -   Capítulo 4 - Bananal: origens e fundação, 53
+    -   Capítulo 5 - Principais edificações de Bananal, 57
+    -   Capítulo 6 - Procedência das famílias pioneiras e primeiras autoridades, 63
+-   Parte II
+    -   Título Rodrigues
+    -   Capítulo 1 - Maria Josefa da Conceição, 73
+    -   Capítulo 2 - José Rodrigues da Rosa, 79
+    -   Capítulo 3 - Joaquim José Rodrigues, 95
+    -   Capítulo 4 - Joaquina Maria de Jesus, 135
+    -   Capítulo 5 - João José Rodrigues, 141
+    -   Capítulo 6 - Rosa Maria de Jesus, 151
+    -   Capítulo 7 - Teodora Maria de São José, 152
+-   Apêndice
+    -   Revelações de antigos inventários: Bananal 1822-1882
+    -   Fazendas do Bananal
 
 ## Problemas da edição
 
@@ -62,15 +62,15 @@ Como a publicação do livro aconteceu de forma póstuma, quinze anos após o fa
 
 Durante a leitura e transcrição, causa estranheza a sequência de informações dos descendentes de **§ 4 — José Rodrigues de Carvalho** (p. 115). Analisando uma combinação entre informações dos descendentes e a sequência numérica, consegui identificar a sequência correta de leitura das informações. Abaixo segue um diagrama com a sequência correta das páginas para leitura fluída das informações:
 
-|de|para|
-|---|---|
-|115|115|
-|116|120|
-|117|119|
-|118|116|
-|119|117|
-|120|118|
-|121|121|
+| de  | para |
+| --- | ---- |
+| 115 | 115  |
+| 116 | 120  |
+| 117 | 119  |
+| 118 | 116  |
+| 119 | 117  |
+| 120 | 118  |
+| 121 | 121  |
 
 Não tenho a informação de que o livro do Píndaro tenha tido novas tiragens em que, eventualmente, esse problema pudesse ter sido corrigido. Também não posso afirmar que esse seja um problema da edição ou exclusivo do meu examplar.
 
@@ -90,7 +90,7 @@ A data de falecimento de Luiz é 02/10/1960 e não 1920 como consta no livro.
 
 **Bn. 3 — Oscar Meireles da Silva** (p. 73)
 Quando ele trata dos ascendentes de Rosaura, ele menciona novamente uma parte paterna que deixa de fazer sentido. É possível que seja relacionado na verdade ao lado materno por conta do DOS SANTOS, pois o sobrenome de casada da avó de Rosaura, Elisabeth, é FARIZOTE, e seu marido não apresenta o DOS SANTOS, e sim o FARIZOTE.
-Ainda sobre a avó francesa, o autor menciona duas cidades diferentes como sendo a de nascimento da avó na França: Bagnes de Bigor (Bagnères-de-Bigorre) e Bayonne. Outra questão que levanta suspeita é a data de nascimento de sua filha, Maria dos Santos, mencionado pelo autor como sendo no ano de 1859. Esse é um ano anterior ao de nascimento provável de sua mãe, calculado a partir das informações da Certidão de Óbito, e ela teria sido mãe de Rosaura aos 46 anos de idade, o que é possível, mas improvável para a época. 
+Ainda sobre a avó francesa, o autor menciona duas cidades diferentes como sendo a de nascimento da avó na França: Bagnes de Bigor (Bagnères-de-Bigorre) e Bayonne. Outra questão que levanta suspeita é a data de nascimento de sua filha, Maria dos Santos, mencionado pelo autor como sendo no ano de 1859. Esse é um ano anterior ao de nascimento provável de sua mãe, calculado a partir das informações da Certidão de Óbito, e ela teria sido mãe de Rosaura aos 46 anos de idade, o que é possível, mas improvável para a época.
 
 **Tn. 2 — Edith Silva** (p. 74)
 O autor menciona "neto paterno" seguidamente quando provavelmente quer dizer "neto materno" na segunda vez ao tratar de Vitor Clemente e Luisa Jairo, provavelmente, pais de Antonieta Clemente. Ao invés de Calafate, o correto é Colafati, conforme registros.
@@ -123,7 +123,6 @@ Não duvido da fertilidade do casal, mas são listados vinte (!!!) filhos para o
 Eurídice é na verdade Eurides. De acordo com o registro de nascimento, o seu nome completo é Eurides Nogueira da Silva, composição de sobrenome que difere dos demais irmãos mencionados no livro como sendo Cândido da Silva.
 
 **N. 9 - Julieta Carvalho dos Santos** (p. 101)
-TODO: AJEITAR
 Domiciana Nogueira é Domiciana Nogueira da Silva, conforme registro de casamento. No mesmo registro, o nome da mãe aparece como Maria da Silva, ao invés de Mariana da Silva.
 O nome da mãe de José Ramos da Silva, é mencionada no registro de casamento do filho como: Francisca Ramos dos Santos, ao invés de Francisca Xavier dos Santos; pode ser um equívoco do autor ou o Xavier pode ser o sobrenome do pai de Francisca.
 
@@ -176,7 +175,7 @@ O nome completo de Walterly é Walterly Cobra Gavião, conforme homenagem descri
 Joaquim Silverio Nogueira Cobra e Oscarlina Raimundo da Silva são, provavelmente, Joaquim Silverio de Carvalho Cobra e Oscarlina da Silva Cobra, de acordo com registro de nascimento de sua filha Elisete.
 
 **Tn. 3 — Ronaldo Castor de Carvalho Bruno** (p. 120)
-O ano de nascimento do Tn. 3, 1920,  certamente está equivocado já que o ano de nascimento do pai (Bn. 2) é 1918. Este último, parece estar de acordo com a informação dos demais irmãos e ordenação.
+O ano de nascimento do Tn. 3, 1920, certamente está equivocado já que o ano de nascimento do pai (Bn. 2) é 1918. Este último, parece estar de acordo com a informação dos demais irmãos e ordenação.
 
 **Tn. 4 — Claudio Roberto/Tn. 5 — Virgínia Lúcia/Tn. 6 — Ricardo César** (p. 120)
 Deveriam estar marcados como Qn. pois são filhos de Tn. 3.
@@ -279,7 +278,7 @@ A grafia correta do primeiro nome do meu bisavô é Octávio e não Otávio, com
 
 ## Bibliografia
 
-Relação de livros e outros textos utilizados para embasamento teórico da Parte I ou mencionados pelo autor ou editor ao longo do desenvolvimento da obra. Segue: 
+Relação de livros e outros textos utilizados para embasamento teórico da Parte I ou mencionados pelo autor ou editor ao longo do desenvolvimento da obra. Segue:
 
 1. ALMANAK ADMINISTRATIVO, MERCANTIL E INDUSTRIAL DO IMPERIO DO BRAZIL PARA 1885. Rio de Janeiro: Laemmert & C., ano 42, 1885.
 2. BACKHEUSER, Everardo. REVISTA DO CLUB DE ENGENHARIA DO RIO DE JANEIRO. **Da trilha ao Trilho**. Rio de Janeiro, n. 69, set./out. 1940. p. 102-124.
@@ -369,35 +368,35 @@ O nome completo do autor é Augusto-Emílio Zaluar. De origem portuguesa, també
 
 ## Lista de imagens
 
-- Píndaro de Carvalho Rodrigues (1892 - 1965), 1
-- Igreja do Senhor Bom Jesus do Livramento, matriz de Bananal, construída, provavelmente, na década 1830-40; nesta foto aparecem ainda algumas das palmeiras imperiais da Praça Pedro Ramos Nogueira, mandadas derrubar pelo prefeito Alvaro Brasil, em 1956, 81
-- Túmulo da "Matriarca", D. Maria Joaquina de Sampaio Almeida no cemitério da Irmandade da Santa Casa de Bananal, 82
-- Vista panôramica de Bananal (foto de Geraldo Tressoldi), 83
-- Sobrado da Família Lomba de Abreu, no. 1 do Cap. 5 (foto de Geraldo Tressoldi), 83
-- Sobrado ao lado da Igreja do Rosário, que pertenceu a Luiz Ribeiro de Souza, no. 20 do Cap. 5, 84
-- Prédio da Farmácia Imperial (hoje Popular), fundada pelo farmacêutico francês Tourin Domingos Mornier, no. 7 do Cap. 5 (foto de Geraldo Tressoldi), 84
-- Sobrado que pertenceu a Luiz Ribeiro de Souza e sobrado de 3 andares que pertenceu a Luiz Manoel de Freitas, no.s 14 e 15 do Cap. 5 (foto de Geraldo Tressoldi), 85
-- Sobrado do Largo do Rosário (praça Rubião Jr.) da família Aguiar Valim, "com 16 janelas de gradil na frente" como mencionado por Emílio Zaluar, no. 17 do Cap. 5 (foto de Geraldo Tressoldi), tombada pelo CONDEPHAAT, 85
-- Sobrado do Com. Manuel de Aguiar Vallim, no Largo do Rosário (Pça. Rubião Jr.), no. 17 do Cap. 5, foto de 1909, cedida pelo Dr. João Rabelo de Aguiar Vallim, 86
-- Estação da Estrada de Ferro de Bananal, importada da Bélgica por Domingos Moitinho, tombada pelo CONDEPHAAT (foto de Geraldo Tressoldi), 87
-- Santa Casa de Misericórdia de Bananal, fundada em 1851 por José Ferreira Gonçalves, o Comendador Ferreirinha (foto de Geraldo Tressoldi), 87
-- Praça Pedro Ramos Nogueira Jr, vendo-se o sobrado do Com. Luciano José de Almeida, construído em 1847 e as palmeiras imperiais mandadas derrubar pelo prefeito Alvaro Brasil em 1956, no. 16 do Cap. 5 (foto de 1940, tirada por Carlos Pereira da Silva Porto), 88
-- Sobrado da Rua Direita (Manoel de Aguiar) que pertenceu ao Dr. João Venâncio Alvez de Macedo, no. 4 do Cap. 5 (foto de Geraldo Tressoldi), 88
-- Casa da Chácara da Rua Com. Ferreirinha, propriedade da família Píndaro de Carvalho Rodrigues (foto de Geraldo Tressoldi), 89
-- Sobrado do Largo da Matriz (Praça Pedro Ramos Nogueira Jr.) ao lado da Igreja, onde foi celebrada a primeira sessão do Tribunal do Juri, em 1836, no. 24 do Cap. 5 (foto de Geraldo Tressoldi), 89
-- A Boa Vista, tela a óleo de autor anônimo em meados do século 19, 90
-- Detalhe da fachada da Fazenda do Rialto (foto de Geraldo Tressoldi), 90
-- Placídia Maria de Almeida, Baronesa de Joatinga, nascida na fazenda Boa Vista 9/10/1827 e falecida em São Paulo 27/03/1902, 91
-- Pedro Ramos Nogueira, Barão de Joatinga, nascido na fazenda Luanda 23/11/1823 e falecido em 07/01/1885, 91
-- João Carvalho Rodrigues, nascido na fazenda Água Comprida 08/07/1843 e falecido em Ribeirão Preto, São Paulo, 10/12/1918, F. 5, § 5, Cap. 3 da Parte II, 91
-- António Rodrigues de Carvalho, nascido na fazenda Água Comprida 01/12/1856 e falecido em Bananal 21/07/1942, F. 12, § 12, Cap. 3 da Parte II, 91
-- Maria Joaquina de Sampaio Almeida, a "Matriarca", nascida em Taubaté 28/11/1803 e falecida em Bananal 23/01/1882, 92
-- Manuel Fernandes de Carvalho, nascido na fazenda Água Comprida 30/05/1859 e falecido em Bananal 15/08/1936, F. 7, § 7, Cap. 3 da Parte II, 93
-- D. Placídia Maria de Almeida, Baronesa de Joatinga, nascida em Bananal 9/10/1827 e falecida em São Paulo 27/03/1902, cc seu primo-irmão Pedro Ramos Nogueira, Barão de Joatinga, nascido na fazenda Loanda, Bananal 23/11/1823, 94
-- Fazenda do Bom Retiro, fundada por Antonio Barbosa da Silva, o "Baú" (foto de Hélio Estolano), 165
-- Fazenda do Resgate, tombada pelo Serviço do Patrimônio Histórico e Artístico Nacional (foto de Hélio Estolano), 166
-- Fazenda do Rialto, formada na sesmaria da Arribada de que foi donatário Francisco Gonçalves Pena em 1784 (foto de Hélio Estolano), 167
-- Fazenda das Três Barras, cujo primeiro proprietário foi Hilário Gomes Nogueira e onde o príncipe D. Pedro pernoitou na ida e na volta de sua viagem a São Paulo em 1822 (foto de Hélio Estolano), 168
+-   Píndaro de Carvalho Rodrigues (1892 - 1965), 1
+-   Igreja do Senhor Bom Jesus do Livramento, matriz de Bananal, construída, provavelmente, na década 1830-40; nesta foto aparecem ainda algumas das palmeiras imperiais da Praça Pedro Ramos Nogueira, mandadas derrubar pelo prefeito Alvaro Brasil, em 1956, 81
+-   Túmulo da "Matriarca", D. Maria Joaquina de Sampaio Almeida no cemitério da Irmandade da Santa Casa de Bananal, 82
+-   Vista panôramica de Bananal (foto de Geraldo Tressoldi), 83
+-   Sobrado da Família Lomba de Abreu, no. 1 do Cap. 5 (foto de Geraldo Tressoldi), 83
+-   Sobrado ao lado da Igreja do Rosário, que pertenceu a Luiz Ribeiro de Souza, no. 20 do Cap. 5, 84
+-   Prédio da Farmácia Imperial (hoje Popular), fundada pelo farmacêutico francês Tourin Domingos Mornier, no. 7 do Cap. 5 (foto de Geraldo Tressoldi), 84
+-   Sobrado que pertenceu a Luiz Ribeiro de Souza e sobrado de 3 andares que pertenceu a Luiz Manoel de Freitas, no.s 14 e 15 do Cap. 5 (foto de Geraldo Tressoldi), 85
+-   Sobrado do Largo do Rosário (praça Rubião Jr.) da família Aguiar Valim, "com 16 janelas de gradil na frente" como mencionado por Emílio Zaluar, no. 17 do Cap. 5 (foto de Geraldo Tressoldi), tombada pelo CONDEPHAAT, 85
+-   Sobrado do Com. Manuel de Aguiar Vallim, no Largo do Rosário (Pça. Rubião Jr.), no. 17 do Cap. 5, foto de 1909, cedida pelo Dr. João Rabelo de Aguiar Vallim, 86
+-   Estação da Estrada de Ferro de Bananal, importada da Bélgica por Domingos Moitinho, tombada pelo CONDEPHAAT (foto de Geraldo Tressoldi), 87
+-   Santa Casa de Misericórdia de Bananal, fundada em 1851 por José Ferreira Gonçalves, o Comendador Ferreirinha (foto de Geraldo Tressoldi), 87
+-   Praça Pedro Ramos Nogueira Jr, vendo-se o sobrado do Com. Luciano José de Almeida, construído em 1847 e as palmeiras imperiais mandadas derrubar pelo prefeito Alvaro Brasil em 1956, no. 16 do Cap. 5 (foto de 1940, tirada por Carlos Pereira da Silva Porto), 88
+-   Sobrado da Rua Direita (Manoel de Aguiar) que pertenceu ao Dr. João Venâncio Alvez de Macedo, no. 4 do Cap. 5 (foto de Geraldo Tressoldi), 88
+-   Casa da Chácara da Rua Com. Ferreirinha, propriedade da família Píndaro de Carvalho Rodrigues (foto de Geraldo Tressoldi), 89
+-   Sobrado do Largo da Matriz (Praça Pedro Ramos Nogueira Jr.) ao lado da Igreja, onde foi celebrada a primeira sessão do Tribunal do Juri, em 1836, no. 24 do Cap. 5 (foto de Geraldo Tressoldi), 89
+-   A Boa Vista, tela a óleo de autor anônimo em meados do século 19, 90
+-   Detalhe da fachada da Fazenda do Rialto (foto de Geraldo Tressoldi), 90
+-   Placídia Maria de Almeida, Baronesa de Joatinga, nascida na fazenda Boa Vista 9/10/1827 e falecida em São Paulo 27/03/1902, 91
+-   Pedro Ramos Nogueira, Barão de Joatinga, nascido na fazenda Luanda 23/11/1823 e falecido em 07/01/1885, 91
+-   João Carvalho Rodrigues, nascido na fazenda Água Comprida 08/07/1843 e falecido em Ribeirão Preto, São Paulo, 10/12/1918, F. 5, § 5, Cap. 3 da Parte II, 91
+-   António Rodrigues de Carvalho, nascido na fazenda Água Comprida 01/12/1856 e falecido em Bananal 21/07/1942, F. 12, § 12, Cap. 3 da Parte II, 91
+-   Maria Joaquina de Sampaio Almeida, a "Matriarca", nascida em Taubaté 28/11/1803 e falecida em Bananal 23/01/1882, 92
+-   Manuel Fernandes de Carvalho, nascido na fazenda Água Comprida 30/05/1859 e falecido em Bananal 15/08/1936, F. 7, § 7, Cap. 3 da Parte II, 93
+-   D. Placídia Maria de Almeida, Baronesa de Joatinga, nascida em Bananal 9/10/1827 e falecida em São Paulo 27/03/1902, cc seu primo-irmão Pedro Ramos Nogueira, Barão de Joatinga, nascido na fazenda Loanda, Bananal 23/11/1823, 94
+-   Fazenda do Bom Retiro, fundada por Antonio Barbosa da Silva, o "Baú" (foto de Hélio Estolano), 165
+-   Fazenda do Resgate, tombada pelo Serviço do Patrimônio Histórico e Artístico Nacional (foto de Hélio Estolano), 166
+-   Fazenda do Rialto, formada na sesmaria da Arribada de que foi donatário Francisco Gonçalves Pena em 1784 (foto de Hélio Estolano), 167
+-   Fazenda das Três Barras, cujo primeiro proprietário foi Hilário Gomes Nogueira e onde o príncipe D. Pedro pernoitou na ida e na volta de sua viagem a São Paulo em 1822 (foto de Hélio Estolano), 168
 
 ## Conclusão
 
