@@ -1,0 +1,9 @@
+{
+    "arrowParens": "avoid",
+    "jsxSingleQuote": true,
+    "printWidth": 130,
+    "semicolons": true,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "useTabs": false
+}
