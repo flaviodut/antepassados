@@ -9,6 +9,8 @@ categories:
     - livro
 ---
 
+TODO: Criar sumário de conteúdo
+
 O livro "O Caminho Novo: povoadores do Bananal", de Píndaro de Carvalho Rodrigues, é um livro histórico-genealógico que apresenta a descendência do casal português, Sebastião José Rodrigues e Inácia Maria de São José. Casados em 1799 na ilha do Faial, ele nascido em Agadão, no continente, e ela na ilha do Faial, no arquipélago dos Açores. Segundo o autor, o casal embarcou para o Brasil no final de 1808, quando o governo imperial promoveu a vinda de casais açorianos e de outras nacionalidades. Esse movimento ocorreu meses depois da viagem (ou fuga?) da família imperial portuguesa e transferência da Corte para o Brasil em ocasião da pressão militar imposta por Napoleão Bonaparte. Instalaram-se em Bananal, cidade paulista localizada no Vale do Paraíba que faz divisa com a cidade de Resende, já no estado do Rio de Janeiro, e onde se consolidava o cultivo do café. O livro divide-se em duas partes: a primeira contextualizando Bananal no período da chegada do casal, além de contar a história de sua fundação; já a segunda, apresenta a genealogia dos descendentes do casal. O autor chega a mencionar uma terceira parte que apresentaria uma "pequena contribuição" de documentos, que não consta na edição. Segundo o editor, apesar de "desnecessária", esta documentação "não se achava incluída nos originais fornecidos ao revisor".
 
 {% include images.html name="o-caminho-novo-povoadores-do-bananal-de-pindaro-de-carvalho-rodrigues.jpg" caption="Capa do livro 'O Caminho Novo: Povoadores do Bananal' de Píndaro de Carvalho Rodrigues, publicado em janeiro de 1981." alt="Capa do livro O Caminho Novo e seu autor" %}
@@ -123,6 +125,7 @@ Não duvido da fertilidade do casal, mas são listados vinte (!!!) filhos para o
 Eurídice é na verdade Eurides. De acordo com o registro de nascimento, o seu nome completo é Eurides Nogueira da Silva, composição de sobrenome que difere dos demais irmãos mencionados no livro como sendo Cândido da Silva.
 
 **N. 9 - Julieta Carvalho dos Santos** (p. 101)
+TODO: Ajeitar
 Domiciana Nogueira é Domiciana Nogueira da Silva, conforme registro de casamento. No mesmo registro, o nome da mãe aparece como Maria da Silva, ao invés de Mariana da Silva.
 O nome da mãe de José Ramos da Silva, é mencionada no registro de casamento do filho como: Francisca Ramos dos Santos, ao invés de Francisca Xavier dos Santos; pode ser um equívoco do autor ou o Xavier pode ser o sobrenome do pai de Francisca.
 
