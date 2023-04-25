@@ -31,12 +31,11 @@ social:
 # Build settings
 permalink: /:year-:month-:day/:title
 markdown: kramdown
-remote_theme: jekyll/minima
+theme: minima
 plugins:
     - jekyll-feed
     - jekyll-seo-tag
     - jekyll-sitemap
-    - jekyll-remote-theme
 include:
     - _redirects
 
@@ -45,7 +44,7 @@ disqus:
     shortname: antepassados
 
     # GA
-    google_analytics: G-TPQY628EYT
+    google_analytics: UA-35055763-2
 
 # Compress HTML - http://jch.penibelst.de/
 compress_html:
