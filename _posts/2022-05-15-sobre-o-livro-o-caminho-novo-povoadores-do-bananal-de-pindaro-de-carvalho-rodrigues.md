@@ -124,7 +124,7 @@ Eurídice é na verdade Eurides. De acordo com o registro de nascimento, o seu n
 
 **N. 9 - Julieta Carvalho dos Santos** (p. 101)
 Domiciana Nogueira é Domiciana Nogueira da Silva, conforme registro de casamento. No mesmo registro, o nome da mãe aparece como Maria da Silva, ao invés de Mariana da Silva.
-O nome da mãe de José Ramos da Silva, é mencionada no registro de casamento do filho como: Francisca Ramos dos Santos, ao invés de Francisca Xavier dos Santos; pode ser um equívoco do autor ou o Xavier pode ser o sobrenome do pai de Francisca.
+O nome da mãe de José Ramos da Silva, é mencionado no registro de casamento do filho como: Francisca Ramos dos Santos, ao invés de Francisca Xavier dos Santos; pode ser um equívoco do autor ou o Xavier pode ser o sobrenome do pai de Francisca.
 
 **Bn. 59 — Eugênio Guilherme Lau** (p. 105)
 A falta de quebra de linha após o nome da pessoa causa certa confusão em uma primeira leitura, mas ele vai listar os filhos do segundo casamento.
