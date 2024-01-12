@@ -1,8 +1,9 @@
 title: Antepassados
-author: Flávio Alberto Dutra
+author: Flávio Dutra
 email: flavio.adore@gmail.com
-description: Sítio dedicado à genealogia, minhas descobertas e histórias familiares
+description: Sítio dedicado à genealogia, minhas descobertas e histórias familiares.
 lang: pt-br
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: https://antepassados.flaviodutra.com.br
 logo: /assets/images/logo-mustard.png
 keywords:
@@ -28,9 +29,10 @@ social:
     links:
         - https://www.facebook.com/flaviodutra
 
+
 # Build settings
 permalink: /:year-:month-:day/:title
-markdown: kramdown
+# markdown: kramdown
 theme: minima
 plugins:
     - jekyll-feed
@@ -43,8 +45,8 @@ include:
 disqus:
     shortname: antepassados
 
-    # GA
-    google_analytics: UA-35055763-2
+# GA4
+google_analytics: G-TPQY628EYT
 
 # Compress HTML - http://jch.penibelst.de/
 compress_html:
