@@ -14,5 +14,5 @@ Como leigo e curioso em genealogia, história e arquivologia, espero que a minha
 
 ## Sobre mim
 
-<img src="https://graph.facebook.com/693745268/picture?type=large" alt="Fotografia de Flávio Alberto Dutra" class="thumb-left">
-Eu me chamo **Flávio Alberto Dutra**, sou brasileiro e nascido no Hospital Central em [São Caetano do Sul, São Paulo](http://pt.wikipedia.org/wiki/S%C3%A3o_Caetano_do_Sul) em 10 de janeiro de 1982. Sou formado em Publicidade e Propaganda pela [UMESP](http://metodista.br/) e estou cursando uma segunda graduação em Sistemas de Informação pela [USCS](http://uscs.edu.br/).
+<img src="//avatars.githubusercontent.com/u/1350829" alt="Fotografia de {{site.author}}" class="thumb-left picture-of-me">
+Eu me chamo **{{site.author}}**, sou brasileiro e nascido no Hospital Central em [São Caetano do Sul, São Paulo](http://pt.wikipedia.org/wiki/S%C3%A3o_Caetano_do_Sul) em 10 de janeiro de 1982. Sou bacharel em Publicidade e Propaganda pela [UMESP](http://metodista.br/) e bacharel em Ciências da Computação pela [USCS](http://uscs.edu.br/).

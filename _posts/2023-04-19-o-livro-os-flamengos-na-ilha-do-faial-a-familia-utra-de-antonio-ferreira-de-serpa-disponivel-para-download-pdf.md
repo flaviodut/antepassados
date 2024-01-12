@@ -17,9 +17,7 @@ O livro aborda as circunstâncias em que se deu a presença dos flamengos na ilh
 
 Este livro é uma fonte importante para a história açoriana, mas também para a história familiar dos que carregam o sobrenome Dutra. Sendo uma aglutinação de "de" e "Utra", tem como origem o sobrenome flamengo "van Hurtere", que passou por um processo de adaptação gerando algumas variações como: Utra, Hutre, Hutra, Dultra, Dutra, e outras.
 
-O download do livro pode ser feito através do website da Biblioteca Virtual da Fundación Ignacio Larramendi (link abaixo), clicando em "Libro".
-
-Download (PDF): [http://www.larramendi.es/es/consulta/registro.do?id=28325](http://www.larramendi.es/es/consulta/registro.do?id=28325)
+O download do livro em formato PDF pode ser feito através do [website da Biblioteca Virtual da Fundación Ignacio Larramendi](http://www.larramendi.es/es/consulta/registro.do?id=28325), clicando em "Libro".
 
 ## Referências
 

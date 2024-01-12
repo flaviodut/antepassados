@@ -1,6 +1,6 @@
 .tags {
   width: 100%;
-  padding: ($spacing-unit * 3) ($spacing-unit / 2) $spacing-unit;
+  padding: calc($spacing-unit * 3) calc($spacing-unit / 2) $spacing-unit;
 
   h3 {
     text-align: center;

@@ -1,7 +1,7 @@
 /* TEAM */
-Your title: Flávio Alberto Dutra
+Your title: Flávio Dutra
 Site: http://flaviodutra.com.br
-Twitter: @flaviodut
+E-mail: flavio.adore@gmail.com
 Location: São Caetano do Sul, São Paulo, Brasil
 
 /* THANKS */
@@ -29,7 +29,7 @@ Why: Obrigado pelo curso de Jekyll na Udemy, caso contrário, eu teria usado o W
 /* SITE */
 Standards: HTML5, CSS3, SVG, Javascript, Liquid
 Components: Jekyll, Markdown, SASS
-Software: VS Code, Sublime, Git, Photoshop, Illustrator
+Software: VS Code, Git, Gimp, Photoshop, Illustrator
 
 /* LOGO */
 Author: Daniel Campos
