@@ -1,0 +1,9 @@
+{% macro categoryTags(cats) %}
+{% if cats and cats.length %}
+<ul>
+  {% for cat in cats | sort(false, true) %}
+  <li><a class="tag" href="/categorias/{{ cat | categorySlug }}/">{{ cat }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}
+{% endmacro %}

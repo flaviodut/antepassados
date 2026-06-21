@@ -1,0 +1,14 @@
+<title>{% if title %}{{ title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ description or site.description }}">
+<link rel="canonical" href="{{ page.url | absoluteUrl }}">
+<meta property="og:title" content="{{ title or site.title }}">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="{% if layout == 'layouts/post.njk' %}article{% else %}website{% endif %}">
+<meta property="og:url" content="{{ page.url | absoluteUrl }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:description" content="{{ description or site.description }}">
+{% if image %}<meta property="og:image" content="{{ image | absoluteUrl }}">{% endif %}
+<meta name="twitter:card" content="{% if image %}summary_large_image{% else %}summary{% endif %}">
+<meta name="twitter:title" content="{{ title or site.title }}">
+<meta name="twitter:description" content="{{ description or site.description }}">
+{% if image %}<meta name="twitter:image" content="{{ image | absoluteUrl }}">{% endif %}

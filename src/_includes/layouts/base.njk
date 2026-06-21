@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ lang or site.lang }}">
+{% include "head.njk" %}
+
+  <body>
+    {% if isProduction %}
+    {% include "gtm-body.njk" %}
+    {% endif %}
+    {% include "header.njk" %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content | safe }}
+        {% include "categories.njk" %}
+      </div>
+    </main>
+
+    {% include "footer.njk" %}
+    {% include "vlibras.njk" %}
+
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,10 +1,33 @@
 # Antepassados
 
-Sítio/blog dedicado as minhas descobertas genealógicas e histórias familiares.
+Sítio/blog dedicado às minhas descobertas genealógicas e histórias familiares.
 
-## Core
+## Stack
 
-Este sítio/blog foi feito usando o fantástico e prático [Jekyll](https://jekyll.github.io/) e uma customização do [tema Minima](https://jekyll.github.io/minima/).
+Este sítio é gerado com [Eleventy](https://www.11ty.dev/) (templates em Nunjucks e Markdown), usando [Luxon](https://moment.github.io/luxon/) para formatação de datas em português.
+
+## Estrutura
+
+```
+src/
+  _data/        dados globais (site, categorias reservadas)
+  _includes/    partials e layouts (Nunjucks)
+  posts/        posts do blog (Markdown)
+  assets/       css, js, imagens e arquivos enviados nos posts
+  categorias.md, index.njk, sitemap.njk, feed.njk, ...
+eleventy.config.js  configuração do Eleventy (filtros, shortcodes, coleções)
+```
+
+## Desenvolvimento
+
+Requer Node.js (versão definida em `.nvmrc`).
+
+```bash
+npm install
+npm run serve   # build com servidor local e reload automático
+npm run build   # build de produção, gera o site em ./_site
+npm run debug   # build com logs de debug do Eleventy
+```
 
 ## License
 

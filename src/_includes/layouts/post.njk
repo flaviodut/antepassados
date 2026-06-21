@@ -1,0 +1,48 @@
+---
+layout: layouts/base.njk
+---
+{% from "macros.njk" import categoryTags %}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ title }}</h1>
+    <p class="post-meta">
+      <span class="post-date-published">
+        <time datetime="{{ date | xmlSchemaDate }}" itemprop="datePublished">
+          {{ date | longDatePt }}
+        </time>
+      </span>
+      {% if lastUpdate %}
+      <span class="post-date-update">
+        Última atualização:
+        <time datetime="{{ date | xmlSchemaDate }}" itemprop="dateModified">
+          {{ lastUpdate | dmyDate }}
+        </time>
+      </span>
+      {% endif %}
+    </p>
+    {{ categoryTags(categories) }}
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content | safe }}
+
+    {% if author %}
+    <p class="post-meta">
+      por
+      <span class="post-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">{{ author }}</span>
+        {% if authorEmail %}
+        <span itemprop="email">&#60;{{ authorEmail }}&#62;</span>
+        {% endif %}
+      </span>
+    </p>
+    {% endif %}
+
+    <p id="fim" class="fim"></p>
+  </div>
+
+  {% if site.disqus.shortname %}
+  {% include "disqus-comments.njk" %}
+  {% endif %}
+</article>

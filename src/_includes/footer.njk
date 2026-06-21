@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <span class="fleur-de-lis">⚜️</span>
+  <div class="content">
+    <p><i>{{ site.title }}</i> foi criado e é administrado por {{ site.author }}</p>
+    <ul>
+      <li><a href="mailto:{{ site.email }}?subject=Contato sobre {{ site.title }}" title="Me contate por e-mail"><svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a></li>
+      <li><a href="https://facebook.com/{{ site.facebook.username }}" title="Meu perfil no Facebook" target="_blank"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
+      <li><a href="/feed.xml" title="feed RSS"><svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg></a></li>
+    </ul>
+    <p class="small">Autorizo a reprodução e divulgação total ou parcial, por qualquer meio convencional ou eletrônico, para fins de estudo e pesquisa, desde que citada a fonte.</p>
+  </div>
+</footer>
+
+{% include "sprite-svg.njk" %}

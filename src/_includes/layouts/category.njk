@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+---
+<article class="category">
+
+  <header class="category-header">
+    <h1 class="category-title">Postagens categorizadas com a palavra-chave <strong>{{ category.tag }}</strong></h1>
+  </header>
+
+  <div class="category-content">
+    <table>
+      <thead>
+        <tr>
+          <th class="align-left">Título do <i>post</i></th>
+          <th class="align-right">Data de publicação</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for post in category.posts | reverse %}
+        <tr>
+          <td>
+            <h2>
+              <a class="category-link" href="{{ post.url }}">{{ post.data.title }}</a>
+            </h2>
+          </td>
+          <td class="align-right">{{ post.date | longDatePt }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+</article>

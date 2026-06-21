@@ -1,0 +1,24 @@
+<head>
+  {% if isProduction %}
+  {% include "gtm-head.njk" %}
+  {% endif %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta property="fb:app_id" content="3155677694672055" />
+  {% include "seo.njk" %}
+  <link rel="author" type="text/plain" href="/humans.txt" />
+  <link rel="shortcut icon" href="/assets/images/icons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/images/icons/manifest.json">
+  <link rel="mask-icon" href="/assets/images/icons/safari-pinned-tab.svg" color="#483d8b">
+  <meta name="msapplication-config" content="/assets/images/icons/browserconfig.xml">
+  <meta name="theme-color" content="#483d8b">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700">
+</head>

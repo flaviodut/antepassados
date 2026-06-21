@@ -21,11 +21,6 @@ Site: http://tombo.pt
 Twitter: @tombo_pt
 Why: O espírito altruísta do sítio tombo.pt em dispor milhares de documentos e conteúdo relevante à pesquisa genealogica é inspirator.
 
-Name: Willian Justen
-Site: https://willianjusten.com.br
-Twitter: @willian_justen
-Why: Obrigado pelo curso de Jekyll na Udemy, caso contrário, eu teria usado o Wordpress safado mesmo.
-
 /* SITE */
 Standards: HTML5, CSS3, SVG, Javascript, Liquid
 Components: Jekyll, Markdown, SASS

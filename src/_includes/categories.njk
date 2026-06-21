@@ -1,0 +1,16 @@
+{% if not hide_categories %}
+{% if title == 'Categorias' %}
+<aside class="tags tags--no-padding-top">
+{% else %}
+<aside class="tags">
+{% endif %}
+  {% if not hide_categories_title %}<h3>Categorias</h3>{% endif %}
+  <ul>
+    {% for cat in collections.categoryList %}
+      {% if cat.posts.length > 0 %}
+      <li><a class="tag" href="/categorias/{{ cat.slug }}/">{{ cat.tag }} <span>{{ cat.posts.length }}</span></a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</aside>
+{% endif %}

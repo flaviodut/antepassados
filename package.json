@@ -1,0 +1,14 @@
+{
+  "name": "antepassados",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "luxon": "^3.5.0"
+  }
+}

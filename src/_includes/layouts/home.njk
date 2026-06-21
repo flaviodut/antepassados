@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+---
+{% from "macros.njk" import categoryTags %}
+<div class="home">
+
+  {{ content | safe }}
+
+  <ul class="post-list">
+    {% for post in collections.posts | reverse %}
+      <li>
+        <div class="post-item">
+          <a class="post-link" href="{{ post.url }}">
+            <span class="post-meta">
+              {{ post.date | shortDay }}
+              {{ post.date | shortMonthAbbr }}
+              {{ post.date | shortYear }}
+            </span>
+            <h2>{{ post.data.title }}</h2>
+            {{ post.templateContent | excerpt | safe }}
+          </a>
+          {{ categoryTags(post.data.categories) }}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
