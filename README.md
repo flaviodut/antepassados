@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/249d38d2-4c8b-4bb1-beb0-b89b7b67b668/deploy-status)](https://app.netlify.com/projects/meus-antepassados/deploys)
+
 # Antepassados
 
 Sítio/blog dedicado às minhas descobertas genealógicas e histórias familiares.
