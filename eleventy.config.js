@@ -1,6 +1,7 @@
 import path from "node:path";
 import { DateTime } from "luxon";
-import site from "./src/_data/site.js";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import Image from "@11ty/eleventy-img";
 import reservedCategories from "./src/_data/reservedCategories.js";
 
 const MONTHS_PT = [
@@ -41,17 +42,16 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/posts");
   eleventyConfig.addPassthroughCopy("src/assets/js");
   eleventyConfig.addPassthroughCopy("src/assets/css");
-  eleventyConfig.addPassthroughCopy("_redirects");
-  eleventyConfig.addPassthroughCopy("CNAME");
-  eleventyConfig.addPassthroughCopy("robots.txt");
-  eleventyConfig.addPassthroughCopy("humans.txt");
-  eleventyConfig.addPassthroughCopy("google3cace278ff9af72d.html");
+  eleventyConfig.addPassthroughCopy("src/CNAME");
+  eleventyConfig.addPassthroughCopy("src/_redirects");
+  eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPassthroughCopy("src/humans.txt");
+
+  eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addGlobalData("isProduction", () =>
     process.env.CONTEXT === "production" || process.env.NODE_ENV === "production"
   );
-
-  eleventyConfig.addFilter("absoluteUrl", (urlPath, base) => new URL(urlPath, base || site.url).toString());
 
   eleventyConfig.addFilter("longDatePt", (date) => {
     const d = toUtcDateTime(date);
@@ -65,20 +65,28 @@ export default function (eleventyConfig) {
     return `${d.day}/${d.month}/${d.year}`;
   });
   eleventyConfig.addFilter("xmlSchemaDate", (date) => new Date(date).toISOString());
-  eleventyConfig.addFilter("rfc822Date", (date) => toUtcDateTime(date).toRFC2822());
   eleventyConfig.addFilter("categorySlug", categorySlug);
   eleventyConfig.addFilter("excerpt", (html) => {
     const match = (html || "").match(/<p>[\s\S]*?<\/p>/);
     return match ? match[0] : "";
   });
 
-  // Equivalente a {% include images.html name=... caption=... alt=... %} usado dentro dos posts
-  eleventyConfig.addShortcode("postImage", function (name, opts = {}) {
+  // Equivalente a {% include images.html name=... caption=... alt=... %} usado dentro dos posts,
+  // agora gerando variantes responsivas (webp + formato original) via @11ty/eleventy-img
+  eleventyConfig.addAsyncShortcode("postImage", async function (name, opts = {}) {
     const stem = path.basename(this.page.inputPath, path.extname(this.page.inputPath));
-    const src = `/assets/posts/${stem}/${name}`;
-    const altAttr = opts.alt ? ` alt="${opts.alt}"` : "";
-    const widthAttr = opts.width ? ` width="${opts.width}"` : "";
-    const img = `<img src="${src}"${altAttr}${widthAttr}/>`;
+    const stats = await Image(`src/assets/posts/${stem}/${name}`, {
+      widths: [400, 800, null],
+      formats: ["webp", null],
+      outputDir: `_site/assets/posts/${stem}/`,
+      urlPath: `/assets/posts/${stem}/`,
+    });
+    const img = Image.generateHTML(stats, {
+      alt: opts.alt || "",
+      sizes: "(min-width: 800px) 800px, 100vw",
+      loading: "lazy",
+      decoding: "async",
+    });
     if (opts.caption) {
       return `<figure>${img}<figcaption>${opts.caption}</figcaption></figure>`;
     }

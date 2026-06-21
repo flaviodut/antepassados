@@ -13,6 +13,6 @@ Como leigo e curioso em genealogia, história e arquivologia, espero que a minha
 
 ## Sobre mim
 
-<img src="//avatars.githubusercontent.com/u/1350829" alt="Fotografia de {{ site.author }}" class="thumb-left picture-of-me">
+<img src="//avatars.githubusercontent.com/u/1350829" alt="Fotografia de {{ metadata.author }}" class="thumb-left picture-of-me">
 
-Eu me chamo **{{ site.author }}**, sou brasileiro e nascido no Hospital Central em [São Caetano do Sul, São Paulo](http://pt.wikipedia.org/wiki/S%C3%A3o_Caetano_do_Sul) em 10 de janeiro de 1982. Sou bacharel em Publicidade e Propaganda pela [UMESP](http://metodista.br/) e bacharel em Ciências da Computação pela [USCS](http://uscs.edu.br/).
+Eu me chamo **{{ metadata.author }}**, sou brasileiro e nascido no Hospital Central em [São Caetano do Sul, São Paulo](http://pt.wikipedia.org/wiki/S%C3%A3o_Caetano_do_Sul) em 10 de janeiro de 1982. Sou bacharel em Publicidade e Propaganda pela [UMESP](http://metodista.br/) e bacharel em Ciências da Computação pela [USCS](http://uscs.edu.br/).

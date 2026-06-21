@@ -42,7 +42,7 @@ layout: layouts/base.njk
     <p id="fim" class="fim"></p>
   </div>
 
-  {% if site.disqus.shortname %}
+  {% if metadata.disqus.shortname %}
   {% include "disqus-comments.njk" %}
   {% endif %}
 </article>
