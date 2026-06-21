@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
   <id>{{ metadata.url }}/</id>
   <author>
     <name>{{ metadata.author }}</name>
-    <email>{{ metadata.email }}</email>
+    <email>{{ metadata.email | obfuscateEmail | safe }}</email>
   </author>
   {% for post in collections.posts | reverse %}
   <entry>

@@ -66,6 +66,14 @@ export default function (eleventyConfig) {
   });
   eleventyConfig.addFilter("xmlSchemaDate", (date) => new Date(date).toISOString());
   eleventyConfig.addFilter("categorySlug", categorySlug);
+  // Ofusca e-mails contra scrapers simples: o navegador decodifica as entidades
+  // numéricas ao montar o link/texto, mas elas não batem com regex de e-mail no HTML bruto.
+  eleventyConfig.addFilter("obfuscateEmail", (email) =>
+    (email || "")
+      .split("")
+      .map((char) => `&#${char.codePointAt(0)};`)
+      .join("")
+  );
   eleventyConfig.addFilter("excerpt", (html) => {
     const match = (html || "").match(/<p>[\s\S]*?<\/p>/);
     return match ? match[0] : "";
