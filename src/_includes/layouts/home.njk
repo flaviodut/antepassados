@@ -4,21 +4,21 @@ layout: layouts/base.njk
 {% from "macros.njk" import categoryTags %}
 <div class="home">
 
+  <h1 class="visually-hidden">{{ metadata.title }}</h1>
+
   {{ content | safe }}
 
   <ul class="post-list">
     {% for post in collections.posts | reverse %}
       <li>
         <div class="post-item">
-          <a class="post-link" href="{{ post.url }}">
-            <span class="post-meta">
-              {{ post.date | shortDay }}
-              {{ post.date | shortMonthAbbr }}
-              {{ post.date | shortYear }}
-            </span>
-            <h2>{{ post.data.title }}</h2>
-            {{ post.templateContent | excerpt | safe }}
-          </a>
+          <span class="post-meta">
+            {{ post.date | shortDay }}
+            {{ post.date | shortMonthAbbr }}
+            {{ post.date | shortYear }}
+          </span>
+          <h2><a class="post-link" href="{{ post.url }}">{{ post.data.title }}</a></h2>
+          {{ post.templateContent | excerpt | safe }}
           {{ categoryTags(post.data.categories) }}
         </div>
       </li>
