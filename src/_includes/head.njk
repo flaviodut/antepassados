@@ -1,4 +1,15 @@
 <head>
+  {% if layout == "layouts/post.njk" %}
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      event: "post_view",
+      post_title: {{ title | dump | safe }},
+      post_categories: {{ categories | dump | safe }},
+      post_date: "{{ date | xmlSchemaDate }}"
+    });
+  </script>
+  {% endif %}
   {% if isProduction %}
   {% include "gtm-head.njk" %}
   {% endif %}
