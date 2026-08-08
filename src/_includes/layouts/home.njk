@@ -13,12 +13,10 @@ layout: layouts/base.njk
       <li>
         <div class="post-item">
           <span class="post-meta">
-            {{ post.date | shortDay }}
-            {{ post.date | shortMonthAbbr }}
-            {{ post.date | shortYear }}
+            {{ post.date | longDatePt }}
           </span>
           <h2><a class="post-link" href="{{ post.url }}">{{ post.data.title }}</a></h2>
-          {{ post.templateContent | excerpt | safe }}
+          <p>{{ post.data.description }}</p>
           {{ categoryTags(post.data.categories) }}
         </div>
       </li>

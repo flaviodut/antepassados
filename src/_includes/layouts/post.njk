@@ -24,6 +24,10 @@ layout: layouts/base.njk
     {{ categoryTags(categories) }}
   </header>
 
+  {% if description %}
+  <p class="post-standfirst">{{ description }}</p>
+  {% endif %}
+
   <div class="post-content" itemprop="articleBody">
     {{ content | safe }}
 
