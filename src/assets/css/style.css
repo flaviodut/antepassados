@@ -482,7 +482,7 @@ caption {
 }
 
 .post-link, .post-link:visited, .post-link:active, .post-link:hover, .post-link:focus {
-  color: var(--color-text);
+  color: var(--color-primary);
 }
 .post-link::after {
   content: "";
