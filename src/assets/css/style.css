@@ -482,7 +482,7 @@ caption {
 }
 
 .post-link, .post-link:visited, .post-link:active, .post-link:hover, .post-link:focus {
-  color: var(--color-text);
+  color: var(--color-primary);
 }
 .post-link::after {
   content: "";
@@ -496,7 +496,10 @@ caption {
   color: var(--color-text-light);
 }
 .post-item > p {
-  height: 4.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
   overflow: hidden;
 }
 
@@ -538,6 +541,19 @@ caption {
 .post-header li {
   margin: var(--space-xs);
 }
+.post-standfirst {
+  margin-bottom: var(--space-lg);
+  color: var(--color-text);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.75;
+  text-align: justify;
+}
+@media screen and (min-width: 1200px) {
+  .post-standfirst {
+    font-size: 1.125rem;
+  }
+}
 .post-content {
   font-size: 1rem;
   line-height: 1.75;
@@ -568,9 +584,9 @@ caption {
   margin-bottom: var(--space-lg);
   text-align: justify;
 }
-.post-content p:not(.post-meta)::first-letter {
+.post-content p:not(.post-meta)::first-letter,
+.post-standfirst::first-letter {
   font-size: 125%;
-  margin-left: var(--space-lg);
 }
 .post-content ul, .post-content ol {
   margin-left: var(--space-lg);

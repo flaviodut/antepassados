@@ -46,6 +46,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/_redirects");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/humans.txt");
+  eleventyConfig.addPassthroughCopy("src/llms.txt");
 
   eleventyConfig.addPlugin(pluginRss);
 

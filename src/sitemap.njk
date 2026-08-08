@@ -3,10 +3,17 @@ permalink: /sitemap.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 {% for item in collections.all %}
   <url>
     <loc>{{ item.url | absoluteUrl(metadata.url) }}</loc>
+    <lastmod>{{ (item.data.lastUpdate or item.date) | xmlSchemaDate }}</lastmod>
+    {% if item.data.image %}
+    <image:image>
+      <image:loc>{{ item.data.image | absoluteUrl(metadata.url) }}</image:loc>
+      {% if item.data.title %}<image:title>{{ item.data.title }}</image:title>{% endif %}
+    </image:image>
+    {% endif %}
   </url>
 {% endfor %}
 </urlset>

@@ -15,7 +15,7 @@ layout: layouts/base.njk
       {% if lastUpdate %}
       <span class="post-date-update">
         Última atualização:
-        <time datetime="{{ date | xmlSchemaDate }}" itemprop="dateModified">
+        <time datetime="{{ lastUpdate | xmlSchemaDate }}" itemprop="dateModified">
           {{ lastUpdate | dmyDate }}
         </time>
       </span>
@@ -23,6 +23,10 @@ layout: layouts/base.njk
     </p>
     {{ categoryTags(categories) }}
   </header>
+
+  {% if description %}
+  <p class="post-standfirst">{{ description }}</p>
+  {% endif %}
 
   <div class="post-content" itemprop="articleBody">
     {{ content | safe }}
@@ -43,6 +47,6 @@ layout: layouts/base.njk
   </div>
 
   {% if metadata.disqus.shortname %}
-  {% include "disqus-comments.njk" %}
+  {% include "integrations/disqus-comments.njk" %}
   {% endif %}
 </article>

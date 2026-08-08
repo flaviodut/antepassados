@@ -1,5 +1,6 @@
 ---
 title: "Túmulo da Família Victorio Bertolin"
+description: "Datas de nascimento e óbito de Ernest e Louise BIDIER, Mercedés e Victorio BERTOLIN, transcritas das placas funerárias do túmulo da família no Cemitério São Paulo Cardeal."
 image: "/assets/posts/2019-04-15-tumulo-da-familia-victorio-bertolin/cover.jpg"
 date: 2019-04-15 17:11:00 -02:00
 lastUpdate: 2019-08-02 19:04:00 -02:00

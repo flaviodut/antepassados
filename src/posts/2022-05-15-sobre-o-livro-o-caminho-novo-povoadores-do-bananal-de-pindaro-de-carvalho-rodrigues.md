@@ -1,5 +1,6 @@
 ---
 title: 'Sobre o livro "O Caminho Novo: Povoadores do Bananal" de Píndaro de Carvalho Rodrigues'
+description: "Resenha e correções genealógicas do livro de Píndaro de Carvalho Rodrigues sobre a descendência do casal açoriano Sebastião José Rodrigues e Inácia Maria em Bananal, SP."
 image: '/assets/posts/2022-05-15-sobre-o-livro-o-caminho-novo-povoadores-do-bananal-de-pindaro-de-carvalho-rodrigues/cover.jpg'
 date: 2022-05-15 16:30:00 -02:00
 lastUpdate: 2023-04-19 14:59:00 -02:00
