@@ -9,6 +9,8 @@ categories:
     - livro
 ---
 
+**Resumo**: o livro "Os flamengos na ilha do Faial: A família Utra" (1929), de António Ferreira de Serpa, disponível para download em PDF, narra a presença flamenga na ilha do Faial (Açores) a partir de 1467 e a origem da família Utra, de onde vem o sobrenome Dutra.
+
 António Ferreira de Serpa foi um historiador e genealogista açoriano que nasceu em Horta, ilha do Faial, em 1865 e faleceu em Lisboa em 1939. Publicou uma vasta obra sobre as famílias da ilha do Faial e sobre a historiografia açoriana. Sua obra "Os flamengos na ilha do Faial: A familia Utra", lançada em 1929, é uma das mais conhecidas e importantes sobre a história dos Açores, e recentemente, foi disponibilizada para download, em formato PDF, pela fundação espanhola Fundación Ignacio Larramendi. Serpa é considerado um dos principais historiadores açorianos da primeira metade do século XX.
 
 O livro aborda as circunstâncias em que se deu a presença dos flamengos na ilha do Faial, nos Açores, a partir de 1467, e a história da família Utra, que se estabeleceu na região depois de Joss van Hurtere (há dezenas variações, dentro as mais comuns Joz van Huerter) ter recebido a ilha do Faial como primeiro donatário, e anos depois, sendo também capitão donatário da ilha do Pico. Através de documentos históricos, em especial os compilados na publicação "História das quatro ilhas que Formam o distrito da Horta" de Antonio Lourenço da Silveira Macedo, o autor retrata a vida dos flamengos na ilha, incluindo sua cultura, religião, comércio e interações com os habitantes locais. A obra também traz informações sobre a arquitetura e as fortificações construídas pelos flamengos na região.

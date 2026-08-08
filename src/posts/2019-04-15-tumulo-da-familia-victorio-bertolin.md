@@ -12,6 +12,8 @@ categories:
   - MAIA
 ---
 
+**Resumo**: transcrição das placas funerárias do túmulo da Família Victorio BERTOLIN no Cemitério São Paulo Cardeal (São Paulo, SP), com datas de nascimento e óbito de Ernest e Louise BIDIER (trisavós do autor), Mercedés e Victorio BERTOLIN, entre outros descendentes.
+
 Em 1909, uma família francesa embarcou no vapor Frisia no porto de {% googleMapsLink "La Pallice, França", "98dUucMRpYQ2" %}, rumo ao {% googleMapsLink "Rio de Janeiro", "7KgiBskNm842" %}. Essa família era composta por Ernest (pai), Louise (mãe), Marceau (filho), Bérangère (filha) e Mercedés (filha), respectivamente com 35, 34, 11, 8 e 3 anos.
 
 A Bérangère, cujo nome completo era **Bérangère Marcelle Louise BIDIER**, é uma das minhas bisavós maternas. Os nomes completos de Marceau e da Mercedés eram **Marceau Marcelin Ernest BIDIER** e **Mercedés Georgette Suzanne BIDIER**. Os pais deles eram **Ernest BIDIER** e **Louise Armanda MICHAU**, meus trisavós.

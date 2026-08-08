@@ -1,0 +1,22 @@
+# Antepassados
+
+> Sítio dedicado à genealogia, descobertas e histórias familiares de Flávio Dutra — famílias BIDIER, MAIA, BERTOLIN, DUTRA, MICHAU, COLLEONI, MAGRINI, entre outras, com raízes na França, Portugal (Açores), Itália e Brasil.
+
+Conteúdo narrativo e factual sobre pesquisa genealógica: relatos de descoberta de ramos familiares, transcrições de documentos e registros de óbito/nascimento, e resenhas de livros histórico-genealógicos.
+
+## Páginas
+
+- [Sobre](https://antepassados.flaviodutra.com.br/sobre/): biografia e motivação do autor, Flávio Dutra.
+- [Categorias](https://antepassados.flaviodutra.com.br/categorias/): índice de postagens por sobrenome/tema (BIDIER, MAIA, DUTRA, Açores, França, Itália, Portugal, Brasil, livro, cemitério, relato, entre outras).
+
+## Postagens
+
+- [O início](https://antepassados.flaviodutra.com.br/2018-01-18/o-inicio/): como o autor descobriu em 2017 o ramo francês da família (BIDIER) e reencontrou parentes perdidos há duas gerações.
+- [Túmulo da Família Victorio Bertolin](https://antepassados.flaviodutra.com.br/2019-04-15/tumulo-da-familia-victorio-bertolin/): datas de nascimento e óbito de Ernest e Louise BIDIER, Mercedés e Victorio BERTOLIN, transcritas de placas funerárias no Cemitério São Paulo Cardeal.
+- [Sobre o livro "O Caminho Novo: Povoadores do Bananal" de Píndaro de Carvalho Rodrigues](https://antepassados.flaviodutra.com.br/2022-05-15/sobre-o-livro-o-caminho-novo-povoadores-do-bananal-de-pindaro-de-carvalho-rodrigues/): resenha e correções genealógicas sobre a descendência do casal açoriano Sebastião José Rodrigues e Inácia Maria em Bananal, SP.
+- [O livro "Os flamengos na ilha do Faial: A familia Utra" de António Ferreira de Serpa disponível para download (PDF)](https://antepassados.flaviodutra.com.br/2023-04-19/o-livro-os-flamengos-na-ilha-do-faial-a-familia-utra-de-antonio-ferreira-de-serpa-disponivel-para-download-pdf/): livro de 1929 sobre os flamengos na ilha do Faial e a família Utra, origem açoriana do sobrenome Dutra.
+
+## Feeds
+
+- [Feed Atom](https://antepassados.flaviodutra.com.br/feed.xml)
+- [Sitemap](https://antepassados.flaviodutra.com.br/sitemap.xml)
