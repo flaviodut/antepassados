@@ -1,3 +1,5 @@
 # robotstxt.org/
 
 User-agent: *
+
+Sitemap: https://antepassados.flaviodutra.com.br/sitemap.xml

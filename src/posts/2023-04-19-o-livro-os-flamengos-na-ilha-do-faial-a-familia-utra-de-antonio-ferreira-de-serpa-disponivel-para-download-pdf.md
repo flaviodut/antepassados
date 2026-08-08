@@ -1,5 +1,6 @@
 ---
 title: 'O livro "Os flamengos na ilha do Faial: A familia Utra" de António Ferreira de Serpa disponível para download (PDF)'
+description: "Livro de 1929 de António Ferreira de Serpa sobre os flamengos na ilha do Faial e a família Utra — origem açoriana do sobrenome Dutra, disponível para download em PDF."
 image: '/assets/posts/2023-04-19-o-livro-os-flamengos-na-ilha-do-faial-a-familia-utra-de-antonio-ferreira-de-serpa-disponivel-para-download-pdf/cover.jpg'
 date: 2023-04-19 14:35:00 -02:00
 categories:

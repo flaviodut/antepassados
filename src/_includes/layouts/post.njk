@@ -15,7 +15,7 @@ layout: layouts/base.njk
       {% if lastUpdate %}
       <span class="post-date-update">
         Última atualização:
-        <time datetime="{{ date | xmlSchemaDate }}" itemprop="dateModified">
+        <time datetime="{{ lastUpdate | xmlSchemaDate }}" itemprop="dateModified">
           {{ lastUpdate | dmyDate }}
         </time>
       </span>

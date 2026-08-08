@@ -6,4 +6,8 @@ pagination:
   addAllPagesToCollections: true
 permalink: "/categorias/{{ category.slug }}/"
 layout: layouts/category.njk
+eleventyComputed:
+  title: "{{ category.tag }}"
+  description: "Postagens sobre {{ category.tag }} no Antepassados."
+  robots: "{% if category.posts.length == 0 %}noindex, follow{% else %}index, follow{% endif %}"
 ---

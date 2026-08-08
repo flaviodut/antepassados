@@ -1,0 +1,40 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "{{ metadata.url }}/sobre/#person",
+      "name": "{{ metadata.author }}",
+      "url": "{{ metadata.url }}/sobre/",
+      "sameAs": [
+        {% if metadata.social.links %}{% for link in metadata.social.links %}"{{ link }}"{% if not loop.last %},{% endif %}{% endfor %}{% if metadata.github.username %},{% endif %}{% endif %}
+        {% if metadata.github.username %}"https://github.com/{{ metadata.github.username }}"{% endif %}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ metadata.url }}/#website",
+      "url": "{{ metadata.url }}/",
+      "name": "{{ metadata.title }}",
+      "description": {{ metadata.description | dump | safe }},
+      "inLanguage": "pt-BR",
+      "author": { "@id": "{{ metadata.url }}/sobre/#person" }
+    }{% if layout == "layouts/post.njk" %},
+    {
+      "@type": "BlogPosting",
+      "@id": "{{ page.url | absoluteUrl(metadata.url) }}#blogposting",
+      "mainEntityOfPage": "{{ page.url | absoluteUrl(metadata.url) }}",
+      "url": "{{ page.url | absoluteUrl(metadata.url) }}",
+      "headline": {{ title | dump | safe }},
+      "description": {{ (description or metadata.description) | dump | safe }},
+      "datePublished": "{{ date | xmlSchemaDate }}",
+      "dateModified": "{{ (lastUpdate or date) | xmlSchemaDate }}",
+      {% if image %}"image": "{{ image | absoluteUrl(metadata.url) }}",{% endif %}
+      "inLanguage": "pt-BR",
+      "author": { "@id": "{{ metadata.url }}/sobre/#person" },
+      "publisher": { "@id": "{{ metadata.url }}/sobre/#person" }
+    }{% endif %}
+  ]
+}
+</script>
