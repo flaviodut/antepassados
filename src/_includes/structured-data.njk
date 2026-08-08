@@ -10,7 +10,16 @@
       "sameAs": [
         {% if metadata.social.links %}{% for link in metadata.social.links %}"{{ link }}"{% if not loop.last %},{% endif %}{% endfor %}{% if metadata.github.username %},{% endif %}{% endif %}
         {% if metadata.github.username %}"https://github.com/{{ metadata.github.username }}"{% endif %}
-      ]
+      ],
+      "homeLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "São Caetano do Sul",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        }
+      }
     },
     {
       "@type": "WebSite",
