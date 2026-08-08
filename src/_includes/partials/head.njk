@@ -11,13 +11,13 @@
   </script>
   {% endif %}
   {% if isProduction %}
-  {% include "gtm-head.njk" %}
+  {% include "integrations/gtm-head.njk" %}
   {% endif %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="{{ robots or 'index, follow' }}">
-  {% include "seo.njk" %}
-  {% include "structured-data.njk" %}
+  {% include "seo/seo.njk" %}
+  {% include "seo/structured-data.njk" %}
   <link rel="author" type="text/plain" href="/humans.txt" />
   <link rel="shortcut icon" href="/assets/images/icons/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/icons/apple-touch-icon.png">
